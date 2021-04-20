@@ -1,0 +1,527 @@
+Found 64 servers:
+	-54.92.212.134
+	-54.242.53.159
+	-54.144.51.188
+	-54.226.72.87
+	-18.209.22.127
+	-34.207.143.109
+	-54.158.28.101
+	-54.237.199.38
+	-54.152.218.241
+	-54.221.181.197
+	-3.91.83.127
+	-18.212.238.180
+	-3.80.115.175
+	-3.93.181.233
+	-3.80.51.54
+	-3.90.164.100
+	-3.84.226.10
+	-52.206.187.236
+	-3.95.196.64
+	-54.90.217.236
+	-54.144.170.227
+	-54.196.233.63
+	-54.145.208.247
+	-34.224.215.15
+	-54.226.162.13
+	-18.208.171.100
+	-18.234.146.2
+	-54.234.214.238
+	-54.236.205.107
+	-34.234.86.133
+	-54.221.154.218
+	-3.88.140.199
+	-100.24.37.88
+	-3.89.224.162
+	-52.204.232.176
+	-107.21.194.98
+	-3.80.22.247
+	-34.224.27.152
+	-54.89.191.190
+	-3.95.211.174
+	-107.23.151.223
+	-34.234.75.29
+	-3.85.188.34
+	-54.221.141.240
+	-3.88.209.255
+	-52.90.128.29
+	-3.91.150.148
+	-34.207.119.123
+	-3.92.138.243
+	-54.90.114.74
+	-3.82.36.28
+	-18.213.4.60
+	-3.208.12.47
+	-3.89.249.95
+	-54.242.124.122
+	-52.90.222.118
+	-3.80.25.8
+	-100.26.110.244
+	-34.233.128.140
+	-54.226.143.216
+	-18.207.168.216
+	-3.80.230.238
+	-54.159.16.187
+	-54.146.232.253
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.051893
+5th percentile/95th percentile: 0.040484, 0.096557
+1st percentile/99th percentile: 0.037862, 0.379131
+Total throughput: 74.581669
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.051369
+5th percentile/95th percentile: 0.040406, 0.097876
+1st percentile/99th percentile: 0.037903, 0.507110
+Total throughput: 75.151697
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.050678
+5th percentile/95th percentile: 0.039736, 0.097579
+1st percentile/99th percentile: 0.037156, 0.617757
+Total throughput: 75.143351
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Errors: [{"errorMessage": "<_Rendezvous of RPC that terminated with:\n\tstatus = StatusCode.UNAVAILABLE\n\tdetails = \"failed to connect to all addresses\"\n\tdebug_error_string = \"{\"created\":\"@1572023996.801149305\",\"description\":\"Failed to pick subchannel\",\"file\":\"src/core/ext/filters/client_channel/client_channel.cc\",\"file_line\":3876,\"referenced_errors\":[{\"created\":\"@1572023996.801143797\",\"description\":\"failed to connect to all addresses\",\"file\":\"src/core/ext/filters/client_channel/lb_policy/pick_first/pick_first.cc\",\"file_line\":395,\"grpc_status\":14}]}\"\n>", "errorType": "_Rendezvous", "stackTrace": ["  File \"/var/task/distributed_handler.py\", line 53, in handler\n    client.Write(update)\n", "  File \"/var/task/grpc/_channel.py\", line 604, in __call__\n    return _end_unary_response_blocking(state, call, False, None)\n", "  File \"/var/task/grpc/_channel.py\", line 506, in _end_unary_response_blocking\n    raise _Rendezvous(state, None, None, deadline)\n"]}]
+Number of errors: 1
+Median latency: 0.051440
+5th percentile/95th percentile: 0.039853, 0.097426
+1st percentile/99th percentile: 0.037164, 0.618557
+Total throughput: 70.415129
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.050630
+5th percentile/95th percentile: 0.039527, 0.097815
+1st percentile/99th percentile: 0.037053, 0.282339
+Total throughput: 76.958867
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.051268
+5th percentile/95th percentile: 0.040130, 0.096903
+1st percentile/99th percentile: 0.037588, 0.514150
+Total throughput: 74.651663
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.051060
+5th percentile/95th percentile: 0.039778, 0.096440
+1st percentile/99th percentile: 0.037036, 0.592992
+Total throughput: 74.929893
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Errors: [{"errorMessage": "<_Rendezvous of RPC that terminated with:\n\tstatus = StatusCode.UNAVAILABLE\n\tdetails = \"failed to connect to all addresses\"\n\tdebug_error_string = \"{\"created\":\"@1572024016.229158911\",\"description\":\"Failed to pick subchannel\",\"file\":\"src/core/ext/filters/client_channel/client_channel.cc\",\"file_line\":3876,\"referenced_errors\":[{\"created\":\"@1572024016.229153707\",\"description\":\"failed to connect to all addresses\",\"file\":\"src/core/ext/filters/client_channel/lb_policy/pick_first/pick_first.cc\",\"file_line\":395,\"grpc_status\":14}]}\"\n>", "errorType": "_Rendezvous", "stackTrace": ["  File \"/var/task/distributed_handler.py\", line 53, in handler\n    client.Write(update)\n", "  File \"/var/task/grpc/_channel.py\", line 604, in __call__\n    return _end_unary_response_blocking(state, call, False, None)\n", "  File \"/var/task/grpc/_channel.py\", line 506, in _end_unary_response_blocking\n    raise _Rendezvous(state, None, None, deadline)\n"]}]
+Number of errors: 1
+Median latency: 0.051714
+5th percentile/95th percentile: 0.040416, 0.098324
+1st percentile/99th percentile: 0.037791, 0.604485
+Total throughput: 69.147675
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Errors: [{"errorMessage": "<_Rendezvous of RPC that terminated with:\n\tstatus = StatusCode.UNAVAILABLE\n\tdetails = \"failed to connect to all addresses\"\n\tdebug_error_string = \"{\"created\":\"@1572024017.727712354\",\"description\":\"Failed to pick subchannel\",\"file\":\"src/core/ext/filters/client_channel/client_channel.cc\",\"file_line\":3876,\"referenced_errors\":[{\"created\":\"@1572024017.727707065\",\"description\":\"failed to connect to all addresses\",\"file\":\"src/core/ext/filters/client_channel/lb_policy/pick_first/pick_first.cc\",\"file_line\":395,\"grpc_status\":14}]}\"\n>", "errorType": "_Rendezvous", "stackTrace": ["  File \"/var/task/distributed_handler.py\", line 53, in handler\n    client.Write(update)\n", "  File \"/var/task/grpc/_channel.py\", line 604, in __call__\n    return _end_unary_response_blocking(state, call, False, None)\n", "  File \"/var/task/grpc/_channel.py\", line 506, in _end_unary_response_blocking\n    raise _Rendezvous(state, None, None, deadline)\n"]}]
+Number of errors: 1
+Median latency: 0.050568
+5th percentile/95th percentile: 0.039607, 0.096974
+1st percentile/99th percentile: 0.037294, 0.438314
+Total throughput: 71.838499
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.052199
+5th percentile/95th percentile: 0.040658, 0.097617
+1st percentile/99th percentile: 0.038029, 0.551828
+Total throughput: 74.283664
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Errors: [{"errorMessage": "<_Rendezvous of RPC that terminated with:\n\tstatus = StatusCode.UNAVAILABLE\n\tdetails = \"failed to connect to all addresses\"\n\tdebug_error_string = \"{\"created\":\"@1572024042.605038496\",\"description\":\"Failed to pick subchannel\",\"file\":\"src/core/ext/filters/client_channel/client_channel.cc\",\"file_line\":3876,\"referenced_errors\":[{\"created\":\"@1572024042.605033593\",\"description\":\"failed to connect to all addresses\",\"file\":\"src/core/ext/filters/client_channel/lb_policy/pick_first/pick_first.cc\",\"file_line\":395,\"grpc_status\":14}]}\"\n>", "errorType": "_Rendezvous", "stackTrace": ["  File \"/var/task/distributed_handler.py\", line 38, in handler\n    txn = client.StartTransaction(empty_pb2.Empty())\n", "  File \"/var/task/grpc/_channel.py\", line 604, in __call__\n    return _end_unary_response_blocking(state, call, False, None)\n", "  File \"/var/task/grpc/_channel.py\", line 506, in _end_unary_response_blocking\n    raise _Rendezvous(state, None, None, deadline)\n"]}]
+Number of errors: 1
+Median latency: 0.052229
+5th percentile/95th percentile: 0.040627, 0.097168
+1st percentile/99th percentile: 0.038158, 0.612030
+Total throughput: 69.267763
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.051378
+5th percentile/95th percentile: 0.039871, 0.096343
+1st percentile/99th percentile: 0.037282, 0.448636
+Total throughput: 74.582458
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.051024
+5th percentile/95th percentile: 0.039646, 0.098267
+1st percentile/99th percentile: 0.037394, 0.349143
+Total throughput: 75.484502
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Errors: [{"errorMessage": "<_Rendezvous of RPC that terminated with:\n\tstatus = StatusCode.UNAVAILABLE\n\tdetails = \"failed to connect to all addresses\"\n\tdebug_error_string = \"{\"created\":\"@1572024006.801011760\",\"description\":\"Failed to pick subchannel\",\"file\":\"src/core/ext/filters/client_channel/client_channel.cc\",\"file_line\":3876,\"referenced_errors\":[{\"created\":\"@1572024006.801006998\",\"description\":\"failed to connect to all addresses\",\"file\":\"src/core/ext/filters/client_channel/lb_policy/pick_first/pick_first.cc\",\"file_line\":395,\"grpc_status\":14}]}\"\n>", "errorType": "_Rendezvous", "stackTrace": ["  File \"/var/task/distributed_handler.py\", line 38, in handler\n    txn = client.StartTransaction(empty_pb2.Empty())\n", "  File \"/var/task/grpc/_channel.py\", line 604, in __call__\n    return _end_unary_response_blocking(state, call, False, None)\n", "  File \"/var/task/grpc/_channel.py\", line 506, in _end_unary_response_blocking\n    raise _Rendezvous(state, None, None, deadline)\n"]}]
+Number of errors: 1
+Median latency: 0.051608
+5th percentile/95th percentile: 0.040877, 0.094899
+1st percentile/99th percentile: 0.037964, 0.341926
+Total throughput: 72.874492
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.051143
+5th percentile/95th percentile: 0.039931, 0.097794
+1st percentile/99th percentile: 0.037336, 0.327701
+Total throughput: 75.270478
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.051826
+5th percentile/95th percentile: 0.039980, 0.096607
+1st percentile/99th percentile: 0.037356, 0.600674
+Total throughput: 72.463423
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.051626
+5th percentile/95th percentile: 0.041393, 0.097802
+1st percentile/99th percentile: 0.038658, 0.263061
+Total throughput: 77.222581
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Errors: [{"errorMessage": "<_Rendezvous of RPC that terminated with:\n\tstatus = StatusCode.UNAVAILABLE\n\tdetails = \"failed to connect to all addresses\"\n\tdebug_error_string = \"{\"created\":\"@1572023983.990843441\",\"description\":\"Failed to pick subchannel\",\"file\":\"src/core/ext/filters/client_channel/client_channel.cc\",\"file_line\":3876,\"referenced_errors\":[{\"created\":\"@1572023983.990833807\",\"description\":\"failed to connect to all addresses\",\"file\":\"src/core/ext/filters/client_channel/lb_policy/pick_first/pick_first.cc\",\"file_line\":395,\"grpc_status\":14}]}\"\n>", "errorType": "_Rendezvous", "stackTrace": ["  File \"/var/task/distributed_handler.py\", line 53, in handler\n    client.Write(update)\n", "  File \"/var/task/grpc/_channel.py\", line 604, in __call__\n    return _end_unary_response_blocking(state, call, False, None)\n", "  File \"/var/task/grpc/_channel.py\", line 506, in _end_unary_response_blocking\n    raise _Rendezvous(state, None, None, deadline)\n"]}]
+Number of errors: 1
+Median latency: 0.051128
+5th percentile/95th percentile: 0.039768, 0.095273
+1st percentile/99th percentile: 0.036923, 0.283987
+Total throughput: 71.434361
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.051820
+5th percentile/95th percentile: 0.040320, 0.096780
+1st percentile/99th percentile: 0.038177, 0.584775
+Total throughput: 73.161811
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.051466
+5th percentile/95th percentile: 0.040100, 0.100714
+1st percentile/99th percentile: 0.037328, 0.584809
+Total throughput: 73.165912
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Errors: [{"errorMessage": "<_Rendezvous of RPC that terminated with:\n\tstatus = StatusCode.UNAVAILABLE\n\tdetails = \"failed to connect to all addresses\"\n\tdebug_error_string = \"{\"created\":\"@1572024017.125329779\",\"description\":\"Failed to pick subchannel\",\"file\":\"src/core/ext/filters/client_channel/client_channel.cc\",\"file_line\":3876,\"referenced_errors\":[{\"created\":\"@1572024017.125324779\",\"description\":\"failed to connect to all addresses\",\"file\":\"src/core/ext/filters/client_channel/lb_policy/pick_first/pick_first.cc\",\"file_line\":395,\"grpc_status\":14}]}\"\n>", "errorType": "_Rendezvous", "stackTrace": ["  File \"/var/task/distributed_handler.py\", line 53, in handler\n    client.Write(update)\n", "  File \"/var/task/grpc/_channel.py\", line 604, in __call__\n    return _end_unary_response_blocking(state, call, False, None)\n", "  File \"/var/task/grpc/_channel.py\", line 506, in _end_unary_response_blocking\n    raise _Rendezvous(state, None, None, deadline)\n"]}]
+Number of errors: 1
+Median latency: 0.050445
+5th percentile/95th percentile: 0.039812, 0.092828
+1st percentile/99th percentile: 0.037162, 0.584075
+Total throughput: 72.744976
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.052811
+5th percentile/95th percentile: 0.041382, 0.097071
+1st percentile/99th percentile: 0.038495, 0.569125
+Total throughput: 72.550926
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Errors: [{"errorMessage": "<_Rendezvous of RPC that terminated with:\n\tstatus = StatusCode.UNAVAILABLE\n\tdetails = \"failed to connect to all addresses\"\n\tdebug_error_string = \"{\"created\":\"@1572024022.254492049\",\"description\":\"Failed to pick subchannel\",\"file\":\"src/core/ext/filters/client_channel/client_channel.cc\",\"file_line\":3876,\"referenced_errors\":[{\"created\":\"@1572024022.254486045\",\"description\":\"failed to connect to all addresses\",\"file\":\"src/core/ext/filters/client_channel/lb_policy/pick_first/pick_first.cc\",\"file_line\":395,\"grpc_status\":14}]}\"\n>", "errorType": "_Rendezvous", "stackTrace": ["  File \"/var/task/distributed_handler.py\", line 38, in handler\n    txn = client.StartTransaction(empty_pb2.Empty())\n", "  File \"/var/task/grpc/_channel.py\", line 604, in __call__\n    return _end_unary_response_blocking(state, call, False, None)\n", "  File \"/var/task/grpc/_channel.py\", line 506, in _end_unary_response_blocking\n    raise _Rendezvous(state, None, None, deadline)\n"]} {"errorMessage": "<_Rendezvous of RPC that terminated with:\n\tstatus = StatusCode.UNAVAILABLE\n\tdetails = \"failed to connect to all addresses\"\n\tdebug_error_string = \"{\"created\":\"@1572024033.125439627\",\"description\":\"Failed to pick subchannel\",\"file\":\"src/core/ext/filters/client_channel/client_channel.cc\",\"file_line\":3876,\"referenced_errors\":[{\"created\":\"@1572024033.125433305\",\"description\":\"failed to connect to all addresses\",\"file\":\"src/core/ext/filters/client_channel/lb_policy/pick_first/pick_first.cc\",\"file_line\":395,\"grpc_status\":14}]}\"\n>", "errorType": "_Rendezvous", "stackTrace": ["  File \"/var/task/distributed_handler.py\", line 38, in handler\n    txn = client.StartTransaction(empty_pb2.Empty())\n", "  File \"/var/task/grpc/_channel.py\", line 604, in __call__\n    return _end_unary_response_blocking(state, call, False, None)\n", "  File \"/var/task/grpc/_channel.py\", line 506, in _end_unary_response_blocking\n    raise _Rendezvous(state, None, None, deadline)\n"]}]
+Number of errors: 2
+Median latency: 0.050302
+5th percentile/95th percentile: 0.039570, 0.096437
+1st percentile/99th percentile: 0.037117, 0.484517
+Total throughput: 68.236797
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.050892
+5th percentile/95th percentile: 0.039919, 0.095667
+1st percentile/99th percentile: 0.036750, 0.648247
+Total throughput: 74.931316
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.050794
+5th percentile/95th percentile: 0.040021, 0.097605
+1st percentile/99th percentile: 0.037377, 0.260122
+Total throughput: 77.207365
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.051869
+5th percentile/95th percentile: 0.040400, 0.099193
+1st percentile/99th percentile: 0.037743, 0.606163
+Total throughput: 72.695623
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.052132
+5th percentile/95th percentile: 0.040864, 0.096626
+1st percentile/99th percentile: 0.038023, 0.580918
+Total throughput: 72.839659
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Errors: [{"errorMessage": "<_Rendezvous of RPC that terminated with:\n\tstatus = StatusCode.UNAVAILABLE\n\tdetails = \"failed to connect to all addresses\"\n\tdebug_error_string = \"{\"created\":\"@1572023997.933763364\",\"description\":\"Failed to pick subchannel\",\"file\":\"src/core/ext/filters/client_channel/client_channel.cc\",\"file_line\":3876,\"referenced_errors\":[{\"created\":\"@1572023997.933757683\",\"description\":\"failed to connect to all addresses\",\"file\":\"src/core/ext/filters/client_channel/lb_policy/pick_first/pick_first.cc\",\"file_line\":395,\"grpc_status\":14}]}\"\n>", "errorType": "_Rendezvous", "stackTrace": ["  File \"/var/task/distributed_handler.py\", line 38, in handler\n    txn = client.StartTransaction(empty_pb2.Empty())\n", "  File \"/var/task/grpc/_channel.py\", line 604, in __call__\n    return _end_unary_response_blocking(state, call, False, None)\n", "  File \"/var/task/grpc/_channel.py\", line 506, in _end_unary_response_blocking\n    raise _Rendezvous(state, None, None, deadline)\n"]}]
+Number of errors: 1
+Median latency: 0.051987
+5th percentile/95th percentile: 0.040725, 0.094711
+1st percentile/99th percentile: 0.038332, 0.265135
+Total throughput: 72.255048
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.051227
+5th percentile/95th percentile: 0.039703, 0.097030
+1st percentile/99th percentile: 0.037153, 0.555100
+Total throughput: 74.856276
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.050945
+5th percentile/95th percentile: 0.039865, 0.097139
+1st percentile/99th percentile: 0.036699, 0.514225
+Total throughput: 75.071992
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.051112
+5th percentile/95th percentile: 0.039860, 0.096124
+1st percentile/99th percentile: 0.037319, 0.499419
+Total throughput: 74.382118
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.050557
+5th percentile/95th percentile: 0.039690, 0.095102
+1st percentile/99th percentile: 0.037126, 0.268105
+Total throughput: 76.109894
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.051403
+5th percentile/95th percentile: 0.039995, 0.097209
+1st percentile/99th percentile: 0.037276, 0.358259
+Total throughput: 75.292297
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.063178
+5th percentile/95th percentile: 0.043818, 0.112110
+1st percentile/99th percentile: 0.040196, 0.297309
+Total throughput: 65.732105
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.050924
+5th percentile/95th percentile: 0.039941, 0.097039
+1st percentile/99th percentile: 0.037091, 0.514784
+Total throughput: 75.219605
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.050913
+5th percentile/95th percentile: 0.039676, 0.095786
+1st percentile/99th percentile: 0.036765, 0.399640
+Total throughput: 75.901523
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.050912
+5th percentile/95th percentile: 0.039711, 0.094046
+1st percentile/99th percentile: 0.037104, 0.554358
+Total throughput: 75.822794
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.050924
+5th percentile/95th percentile: 0.039875, 0.096173
+1st percentile/99th percentile: 0.037147, 0.438846
+Total throughput: 75.928556
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.051787
+5th percentile/95th percentile: 0.040664, 0.098365
+1st percentile/99th percentile: 0.038120, 0.260530
+Total throughput: 74.275285
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.050744
+5th percentile/95th percentile: 0.039789, 0.098393
+1st percentile/99th percentile: 0.037455, 0.655141
+Total throughput: 72.748518
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.051745
+5th percentile/95th percentile: 0.040213, 0.097393
+1st percentile/99th percentile: 0.037876, 0.382614
+Total throughput: 75.088610
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.051956
+5th percentile/95th percentile: 0.040815, 0.095760
+1st percentile/99th percentile: 0.038543, 0.602651
+Total throughput: 72.936401
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.052381
+5th percentile/95th percentile: 0.040942, 0.098406
+1st percentile/99th percentile: 0.038427, 0.449776
+Total throughput: 73.635257
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.051052
+5th percentile/95th percentile: 0.039771, 0.096882
+1st percentile/99th percentile: 0.037287, 0.342085
+Total throughput: 74.931198
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.050968
+5th percentile/95th percentile: 0.039687, 0.097178
+1st percentile/99th percentile: 0.037156, 0.313561
+Total throughput: 76.122321
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.051576
+5th percentile/95th percentile: 0.040401, 0.097517
+1st percentile/99th percentile: 0.037820, 0.261332
+Total throughput: 76.498917
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.050879
+5th percentile/95th percentile: 0.039811, 0.094782
+1st percentile/99th percentile: 0.037228, 0.262862
+Total throughput: 75.694608
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Errors: [{"errorMessage": "<_Rendezvous of RPC that terminated with:\n\tstatus = StatusCode.UNAVAILABLE\n\tdetails = \"failed to connect to all addresses\"\n\tdebug_error_string = \"{\"created\":\"@1572024046.024442929\",\"description\":\"Failed to pick subchannel\",\"file\":\"src/core/ext/filters/client_channel/client_channel.cc\",\"file_line\":3876,\"referenced_errors\":[{\"created\":\"@1572024046.024437950\",\"description\":\"failed to connect to all addresses\",\"file\":\"src/core/ext/filters/client_channel/lb_policy/pick_first/pick_first.cc\",\"file_line\":395,\"grpc_status\":14}]}\"\n>", "errorType": "_Rendezvous", "stackTrace": ["  File \"/var/task/distributed_handler.py\", line 53, in handler\n    client.Write(update)\n", "  File \"/var/task/grpc/_channel.py\", line 604, in __call__\n    return _end_unary_response_blocking(state, call, False, None)\n", "  File \"/var/task/grpc/_channel.py\", line 506, in _end_unary_response_blocking\n    raise _Rendezvous(state, None, None, deadline)\n"]}]
+Number of errors: 1
+Median latency: 0.051936
+5th percentile/95th percentile: 0.040206, 0.097342
+1st percentile/99th percentile: 0.037499, 0.631014
+Total throughput: 69.640637
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.051477
+5th percentile/95th percentile: 0.040427, 0.094411
+1st percentile/99th percentile: 0.037924, 0.325238
+Total throughput: 76.513727
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.052010
+5th percentile/95th percentile: 0.040503, 0.099268
+1st percentile/99th percentile: 0.037915, 0.616144
+Total throughput: 72.462337
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Errors: [{"errorMessage": "<_Rendezvous of RPC that terminated with:\n\tstatus = StatusCode.UNAVAILABLE\n\tdetails = \"failed to connect to all addresses\"\n\tdebug_error_string = \"{\"created\":\"@1572024045.859454054\",\"description\":\"Failed to pick subchannel\",\"file\":\"src/core/ext/filters/client_channel/client_channel.cc\",\"file_line\":3876,\"referenced_errors\":[{\"created\":\"@1572024045.859448795\",\"description\":\"failed to connect to all addresses\",\"file\":\"src/core/ext/filters/client_channel/lb_policy/pick_first/pick_first.cc\",\"file_line\":395,\"grpc_status\":14}]}\"\n>", "errorType": "_Rendezvous", "stackTrace": ["  File \"/var/task/distributed_handler.py\", line 38, in handler\n    txn = client.StartTransaction(empty_pb2.Empty())\n", "  File \"/var/task/grpc/_channel.py\", line 604, in __call__\n    return _end_unary_response_blocking(state, call, False, None)\n", "  File \"/var/task/grpc/_channel.py\", line 506, in _end_unary_response_blocking\n    raise _Rendezvous(state, None, None, deadline)\n"]}]
+Number of errors: 1
+Median latency: 0.052126
+5th percentile/95th percentile: 0.040350, 0.098495
+1st percentile/99th percentile: 0.037899, 0.647322
+Total throughput: 69.681640
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.050749
+5th percentile/95th percentile: 0.039690, 0.094428
+1st percentile/99th percentile: 0.037049, 0.509455
+Total throughput: 75.203469
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.051787
+5th percentile/95th percentile: 0.040639, 0.094132
+1st percentile/99th percentile: 0.038065, 0.407775
+Total throughput: 75.088118
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.051483
+5th percentile/95th percentile: 0.040005, 0.095853
+1st percentile/99th percentile: 0.037342, 0.578291
+Total throughput: 74.933089
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.051589
+5th percentile/95th percentile: 0.040332, 0.097917
+1st percentile/99th percentile: 0.038109, 0.613415
+Total throughput: 74.280715
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.050016
+5th percentile/95th percentile: 0.039480, 0.096798
+1st percentile/99th percentile: 0.037122, 0.207939
+Total throughput: 79.647072
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Errors: [{"errorMessage": "<_Rendezvous of RPC that terminated with:\n\tstatus = StatusCode.UNAVAILABLE\n\tdetails = \"failed to connect to all addresses\"\n\tdebug_error_string = \"{\"created\":\"@1572024003.761470025\",\"description\":\"Failed to pick subchannel\",\"file\":\"src/core/ext/filters/client_channel/client_channel.cc\",\"file_line\":3876,\"referenced_errors\":[{\"created\":\"@1572024003.761465515\",\"description\":\"failed to connect to all addresses\",\"file\":\"src/core/ext/filters/client_channel/lb_policy/pick_first/pick_first.cc\",\"file_line\":395,\"grpc_status\":14}]}\"\n>", "errorType": "_Rendezvous", "stackTrace": ["  File \"/var/task/distributed_handler.py\", line 38, in handler\n    txn = client.StartTransaction(empty_pb2.Empty())\n", "  File \"/var/task/grpc/_channel.py\", line 604, in __call__\n    return _end_unary_response_blocking(state, call, False, None)\n", "  File \"/var/task/grpc/_channel.py\", line 506, in _end_unary_response_blocking\n    raise _Rendezvous(state, None, None, deadline)\n"]}]
+Number of errors: 1
+Median latency: 0.051112
+5th percentile/95th percentile: 0.039899, 0.097451
+1st percentile/99th percentile: 0.037403, 0.505249
+Total throughput: 71.577908
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.051067
+5th percentile/95th percentile: 0.039955, 0.095978
+1st percentile/99th percentile: 0.037213, 0.581154
+Total throughput: 73.604009
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Errors: [{"errorMessage": "<_Rendezvous of RPC that terminated with:\n\tstatus = StatusCode.UNAVAILABLE\n\tdetails = \"failed to connect to all addresses\"\n\tdebug_error_string = \"{\"created\":\"@1572024001.736941694\",\"description\":\"Failed to pick subchannel\",\"file\":\"src/core/ext/filters/client_channel/client_channel.cc\",\"file_line\":3876,\"referenced_errors\":[{\"created\":\"@1572024001.736937073\",\"description\":\"failed to connect to all addresses\",\"file\":\"src/core/ext/filters/client_channel/lb_policy/pick_first/pick_first.cc\",\"file_line\":395,\"grpc_status\":14}]}\"\n>", "errorType": "_Rendezvous", "stackTrace": ["  File \"/var/task/distributed_handler.py\", line 38, in handler\n    txn = client.StartTransaction(empty_pb2.Empty())\n", "  File \"/var/task/grpc/_channel.py\", line 604, in __call__\n    return _end_unary_response_blocking(state, call, False, None)\n", "  File \"/var/task/grpc/_channel.py\", line 506, in _end_unary_response_blocking\n    raise _Rendezvous(state, None, None, deadline)\n"]}]
+Number of errors: 1
+Median latency: 0.051174
+5th percentile/95th percentile: 0.039668, 0.096766
+1st percentile/99th percentile: 0.037177, 0.508029
+Total throughput: 70.383488
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.052446
+5th percentile/95th percentile: 0.040801, 0.095719
+1st percentile/99th percentile: 0.038216, 0.495728
+Total throughput: 73.529253
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.051631
+5th percentile/95th percentile: 0.040700, 0.095679
+1st percentile/99th percentile: 0.038153, 0.315878
+Total throughput: 75.994242
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.050757
+5th percentile/95th percentile: 0.039977, 0.094882
+1st percentile/99th percentile: 0.037084, 0.317883
+Total throughput: 77.082399
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.050746
+5th percentile/95th percentile: 0.039585, 0.096546
+1st percentile/99th percentile: 0.036949, 0.518723
+Total throughput: 74.910794
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.052268
+5th percentile/95th percentile: 0.040616, 0.096789
+1st percentile/99th percentile: 0.038068, 0.403748
+Total throughput: 74.144764
+
+Finished!

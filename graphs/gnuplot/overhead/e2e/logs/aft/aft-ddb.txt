@@ -1,0 +1,18 @@
+Found 2 servers:
+	-54.234.93.10
+	-3.93.170.247
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.068416
+5th percentile/95th percentile: 0.058044, 0.104187
+1st percentile/99th percentile: 0.054743, 0.138244
+Total throughput: 67.621519
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.069244
+5th percentile/95th percentile: 0.059041, 0.105754
+1st percentile/99th percentile: 0.055558, 0.143510
+Total throughput: 67.102229
+
+Finished!

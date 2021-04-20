@@ -1,0 +1,19 @@
+Found 2 servers:
+	-54.234.93.10
+	-3.93.170.247
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.057861
+5th percentile/95th percentile: 0.047584, 0.089543
+1st percentile/99th percentile: 0.044673, 0.130852
+Total throughput: 73.979002
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Errors: [{"errorMessage": "<_Rendezvous of RPC that terminated with:\n\tstatus = StatusCode.UNKNOWN\n\tdetails = \"ResourceNotFoundException: Requested resource not found\n\tstatus code: 400, request id: 7G4L3LLCMJ3SG71UO9254NQL6RVV4KQNSO5AEMVJF66Q9ASUAAJG\"\n\tdebug_error_string = \"{\"created\":\"@1572464676.787583502\",\"description\":\"Error received from peer ipv4:3.90.214.20:7654\",\"file\":\"src/core/lib/surface/call.cc\",\"file_line\":1055,\"grpc_message\":\"ResourceNotFoundException: Requested resource not found\\n\\tstatus code: 400, request id: 7G4L3LLCMJ3SG71UO9254NQL6RVV4KQNSO5AEMVJF66Q9ASUAAJG\",\"grpc_status\":2}\"\n>", "errorType": "_Rendezvous", "stackTrace": ["  File \"/var/task/distributed_handler.py\", line 60, in handler\n    client.Read(update)\n", "  File \"/var/task/grpc/_channel.py\", line 604, in __call__\n    return _end_unary_response_blocking(state, call, False, None)\n", "  File \"/var/task/grpc/_channel.py\", line 506, in _end_unary_response_blocking\n    raise _Rendezvous(state, None, None, deadline)\n"]}]
+Number of errors: 1
+Median latency: 0.057831
+5th percentile/95th percentile: 0.047366, 0.090769
+1st percentile/99th percentile: 0.044473, 0.133623
+Total throughput: 73.586323
+
+Finished!

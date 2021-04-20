@@ -1,0 +1,67 @@
+Found 8 servers:
+	-54.242.111.7
+	-107.23.154.217
+	-35.172.212.57
+	-18.212.81.205
+	-54.158.46.9
+	-54.158.29.112
+	-52.23.182.163
+	-52.90.3.35
+Starting benchmark at 2019-11-01 01:21:12.014273
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.059469
+5th percentile/95th percentile: 0.048978, 0.083782
+1st percentile/99th percentile: 0.046329, 0.116805
+Total throughput: 76.900818
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.059406
+5th percentile/95th percentile: 0.048874, 0.081808
+1st percentile/99th percentile: 0.045751, 0.113499
+Total throughput: 78.106548
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.059675
+5th percentile/95th percentile: 0.048949, 0.082288
+1st percentile/99th percentile: 0.045599, 0.113150
+Total throughput: 77.731299
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.058664
+5th percentile/95th percentile: 0.048222, 0.082771
+1st percentile/99th percentile: 0.045055, 0.113850
+Total throughput: 78.075637
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.059290
+5th percentile/95th percentile: 0.048942, 0.080926
+1st percentile/99th percentile: 0.045842, 0.113556
+Total throughput: 77.229768
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.059262
+5th percentile/95th percentile: 0.048709, 0.085887
+1st percentile/99th percentile: 0.045864, 0.123590
+Total throughput: 76.953350
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.059832
+5th percentile/95th percentile: 0.049519, 0.083001
+1st percentile/99th percentile: 0.045910, 0.117119
+Total throughput: 77.270433
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.058787
+5th percentile/95th percentile: 0.048265, 0.083118
+1st percentile/99th percentile: 0.044942, 0.116916
+Total throughput: 78.098405
+
+Finished!

@@ -1,0 +1,901 @@
+➜  benchmark git:(master) ✗ python3 benchmark_trigger.py -r 1000 -t 5 -rp 54.167.90.102,54.196.39.16,3.85.237.177,174.129.73.62,107.23.178.54,52.201.239.65,54.85.202.195,18.232.175.9,23.22.147.209,3.95.215.247,54.89.72.207,54.198.193.235,54.227.55.182,54.235.4.48 -tp 1
+Found 112 servers:
+	-54.197.1.230
+	-3.80.221.185
+	-54.160.158.72
+	-54.87.48.0
+	-3.80.116.98
+	-54.165.208.76
+	-34.207.146.169
+	-3.89.103.177
+	-54.227.112.228
+	-3.80.41.104
+	-107.22.39.21
+	-54.167.16.9
+	-3.84.226.204
+	-34.230.20.34
+	-34.229.220.2
+	-54.242.77.73
+	-54.227.80.193
+	-54.226.86.177
+	-54.235.49.90
+	-54.221.55.180
+	-3.93.198.69
+	-3.93.185.125
+	-54.167.18.187
+	-54.235.62.134
+	-52.90.19.89
+	-3.88.99.12
+	-3.93.46.235
+	-18.204.231.124
+	-3.88.138.236
+	-54.165.129.93
+	-34.207.110.147
+	-18.207.156.237
+	-3.85.198.175
+	-18.207.153.226
+	-18.215.172.54
+	-34.224.87.60
+	-54.90.65.88
+	-34.230.87.191
+	-54.172.144.157
+	-3.80.116.104
+	-3.88.200.91
+	-34.224.79.81
+	-52.204.0.187
+	-18.208.217.110
+	-54.197.181.118
+	-3.91.66.242
+	-54.164.107.129
+	-107.20.30.77
+	-18.215.149.49
+	-54.87.191.172
+	-3.89.60.17
+	-100.26.36.175
+	-3.208.18.47
+	-3.80.24.123
+	-54.88.1.171
+	-54.226.59.157
+	-54.91.86.48
+	-52.201.65.199
+	-3.208.24.39
+	-18.234.175.16
+	-18.209.50.123
+	-3.89.105.149
+	-3.85.143.21
+	-54.198.59.110
+	-52.201.235.242
+	-54.90.133.239
+	-54.89.161.36
+	-34.234.84.61
+	-18.234.146.173
+	-52.90.231.173
+	-54.234.16.215
+	-18.212.246.99
+	-34.229.73.39
+	-54.92.205.141
+	-52.2.98.224
+	-34.228.20.29
+	-18.234.45.140
+	-3.94.123.72
+	-54.167.105.237
+	-34.227.222.153
+	-3.93.182.250
+	-100.26.143.243
+	-54.83.73.51
+	-52.201.215.64
+	-54.196.169.228
+	-54.152.129.21
+	-34.230.76.189
+	-18.208.158.22
+	-3.92.70.250
+	-100.25.214.140
+	-3.91.8.129
+	-54.242.62.117
+	-54.234.107.171
+	-34.224.26.231
+	-34.234.83.99
+	-54.91.72.150
+	-34.230.30.81
+	-3.94.146.191
+	-54.235.34.8
+	-54.160.206.36
+	-34.207.185.94
+	-54.226.137.21
+	-54.209.54.107
+	-18.209.13.41
+	-3.90.104.109
+	-52.201.243.86
+	-52.87.218.49
+	-54.210.207.247
+	-18.208.192.168
+	-52.23.240.255
+	-54.90.227.126
+	-34.224.23.178
+Starting benchmark at 2019-11-03 03:49:16.637531
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.042383
+5th percentile/95th percentile: 0.035821, 0.070688
+1st percentile/99th percentile: 0.033742, 0.115107
+Total throughput: 99.804896
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.043064
+5th percentile/95th percentile: 0.036698, 0.073615
+1st percentile/99th percentile: 0.034882, 0.122586
+Total throughput: 98.754728
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.042342
+5th percentile/95th percentile: 0.035768, 0.070090
+1st percentile/99th percentile: 0.033781, 0.108624
+Total throughput: 100.809979
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.043337
+5th percentile/95th percentile: 0.037077, 0.073183
+1st percentile/99th percentile: 0.034987, 0.118727
+Total throughput: 96.557764
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.042455
+5th percentile/95th percentile: 0.035834, 0.073030
+1st percentile/99th percentile: 0.033922, 0.121263
+Total throughput: 98.508784
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.042609
+5th percentile/95th percentile: 0.035934, 0.068571
+1st percentile/99th percentile: 0.034040, 0.117384
+Total throughput: 100.041791
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.050025
+5th percentile/95th percentile: 0.038898, 0.087045
+1st percentile/99th percentile: 0.036316, 0.130756
+Total throughput: 85.220828
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.042352
+5th percentile/95th percentile: 0.035693, 0.072880
+1st percentile/99th percentile: 0.033845, 0.117416
+Total throughput: 99.292855
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.043365
+5th percentile/95th percentile: 0.037087, 0.072044
+1st percentile/99th percentile: 0.034952, 0.118483
+Total throughput: 98.810517
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.043092
+5th percentile/95th percentile: 0.036703, 0.073421
+1st percentile/99th percentile: 0.034774, 0.123670
+Total throughput: 97.576109
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.042272
+5th percentile/95th percentile: 0.035759, 0.070123
+1st percentile/99th percentile: 0.033857, 0.115699
+Total throughput: 100.379345
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.042821
+5th percentile/95th percentile: 0.036203, 0.074710
+1st percentile/99th percentile: 0.034232, 0.120733
+Total throughput: 96.812014
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.042738
+5th percentile/95th percentile: 0.036196, 0.072703
+1st percentile/99th percentile: 0.033942, 0.117738
+Total throughput: 99.915725
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.042914
+5th percentile/95th percentile: 0.036782, 0.072892
+1st percentile/99th percentile: 0.034965, 0.118256
+Total throughput: 98.352425
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.042494
+5th percentile/95th percentile: 0.035973, 0.072218
+1st percentile/99th percentile: 0.034081, 0.117309
+Total throughput: 99.661114
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.043086
+5th percentile/95th percentile: 0.036692, 0.070696
+1st percentile/99th percentile: 0.034804, 0.119276
+Total throughput: 99.038343
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.043124
+5th percentile/95th percentile: 0.036746, 0.073424
+1st percentile/99th percentile: 0.034972, 0.122736
+Total throughput: 98.108455
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.043196
+5th percentile/95th percentile: 0.036934, 0.071272
+1st percentile/99th percentile: 0.034932, 0.110223
+Total throughput: 99.622026
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.043353
+5th percentile/95th percentile: 0.036943, 0.072757
+1st percentile/99th percentile: 0.035432, 0.114633
+Total throughput: 96.888302
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.042304
+5th percentile/95th percentile: 0.035736, 0.070865
+1st percentile/99th percentile: 0.033616, 0.116445
+Total throughput: 100.117561
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.042302
+5th percentile/95th percentile: 0.035892, 0.072085
+1st percentile/99th percentile: 0.034086, 0.116575
+Total throughput: 100.997770
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.042319
+5th percentile/95th percentile: 0.035874, 0.070073
+1st percentile/99th percentile: 0.033849, 0.108893
+Total throughput: 102.075007
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.043269
+5th percentile/95th percentile: 0.036884, 0.072867
+1st percentile/99th percentile: 0.035077, 0.113052
+Total throughput: 96.756206
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.042298
+5th percentile/95th percentile: 0.035964, 0.071502
+1st percentile/99th percentile: 0.033797, 0.114674
+Total throughput: 98.976131
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.043348
+5th percentile/95th percentile: 0.036896, 0.072855
+1st percentile/99th percentile: 0.034702, 0.115261
+Total throughput: 98.068380
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.042339
+5th percentile/95th percentile: 0.035837, 0.071615
+1st percentile/99th percentile: 0.033604, 0.114273
+Total throughput: 99.945306
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.042672
+5th percentile/95th percentile: 0.036086, 0.069437
+1st percentile/99th percentile: 0.033906, 0.109977
+Total throughput: 103.138247
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.043418
+5th percentile/95th percentile: 0.037107, 0.071403
+1st percentile/99th percentile: 0.035153, 0.111550
+Total throughput: 99.514864
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.043283
+5th percentile/95th percentile: 0.037063, 0.070926
+1st percentile/99th percentile: 0.035355, 0.116533
+Total throughput: 96.623902
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.042639
+5th percentile/95th percentile: 0.035908, 0.073196
+1st percentile/99th percentile: 0.033909, 0.119430
+Total throughput: 97.157748
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.043302
+5th percentile/95th percentile: 0.036769, 0.073307
+1st percentile/99th percentile: 0.034885, 0.115356
+Total throughput: 98.454590
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.043419
+5th percentile/95th percentile: 0.036951, 0.071382
+1st percentile/99th percentile: 0.035213, 0.120888
+Total throughput: 98.478128
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.043348
+5th percentile/95th percentile: 0.036884, 0.071398
+1st percentile/99th percentile: 0.035048, 0.111111
+Total throughput: 99.627761
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.042371
+5th percentile/95th percentile: 0.036027, 0.070632
+1st percentile/99th percentile: 0.034181, 0.111311
+Total throughput: 102.130881
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.042551
+5th percentile/95th percentile: 0.035899, 0.072858
+1st percentile/99th percentile: 0.033710, 0.114806
+Total throughput: 100.366642
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.043067
+5th percentile/95th percentile: 0.036655, 0.073070
+1st percentile/99th percentile: 0.034999, 0.120917
+Total throughput: 98.254982
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.042719
+5th percentile/95th percentile: 0.035962, 0.070864
+1st percentile/99th percentile: 0.033939, 0.113092
+Total throughput: 98.341624
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.043062
+5th percentile/95th percentile: 0.036833, 0.074201
+1st percentile/99th percentile: 0.035042, 0.118251
+Total throughput: 96.504211
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.043139
+5th percentile/95th percentile: 0.036807, 0.074931
+1st percentile/99th percentile: 0.034872, 0.119014
+Total throughput: 99.021079
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.043308
+5th percentile/95th percentile: 0.037050, 0.072122
+1st percentile/99th percentile: 0.035142, 0.107818
+Total throughput: 98.533812
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.042311
+5th percentile/95th percentile: 0.035970, 0.071164
+1st percentile/99th percentile: 0.034003, 0.116857
+Total throughput: 101.070632
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.043281
+5th percentile/95th percentile: 0.036788, 0.073565
+1st percentile/99th percentile: 0.035119, 0.116814
+Total throughput: 96.699540
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.043615
+5th percentile/95th percentile: 0.037009, 0.071269
+1st percentile/99th percentile: 0.035088, 0.114749
+Total throughput: 98.006668
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.042416
+5th percentile/95th percentile: 0.035950, 0.072225
+1st percentile/99th percentile: 0.033962, 0.117261
+Total throughput: 98.390055
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.043201
+5th percentile/95th percentile: 0.036815, 0.068573
+1st percentile/99th percentile: 0.034935, 0.113511
+Total throughput: 100.691941
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.042452
+5th percentile/95th percentile: 0.035856, 0.069969
+1st percentile/99th percentile: 0.033784, 0.116101
+Total throughput: 100.934588
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.042398
+5th percentile/95th percentile: 0.035975, 0.068893
+1st percentile/99th percentile: 0.034074, 0.107554
+Total throughput: 101.805707
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.042708
+5th percentile/95th percentile: 0.036024, 0.070633
+1st percentile/99th percentile: 0.033726, 0.118254
+Total throughput: 98.304945
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.042386
+5th percentile/95th percentile: 0.035839, 0.070114
+1st percentile/99th percentile: 0.033698, 0.117445
+Total throughput: 99.815729
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.042597
+5th percentile/95th percentile: 0.036059, 0.073941
+1st percentile/99th percentile: 0.033904, 0.118301
+Total throughput: 98.701175
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.042279
+5th percentile/95th percentile: 0.035794, 0.071498
+1st percentile/99th percentile: 0.033723, 0.118033
+Total throughput: 98.054459
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.043004
+5th percentile/95th percentile: 0.036702, 0.070912
+1st percentile/99th percentile: 0.034869, 0.116119
+Total throughput: 98.524113
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.042533
+5th percentile/95th percentile: 0.036025, 0.070529
+1st percentile/99th percentile: 0.034118, 0.113206
+Total throughput: 100.387078
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.042567
+5th percentile/95th percentile: 0.036021, 0.070080
+1st percentile/99th percentile: 0.034100, 0.119170
+Total throughput: 100.152493
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.043142
+5th percentile/95th percentile: 0.036714, 0.072846
+1st percentile/99th percentile: 0.034787, 0.113150
+Total throughput: 99.748129
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.042462
+5th percentile/95th percentile: 0.035963, 0.070940
+1st percentile/99th percentile: 0.034167, 0.113048
+Total throughput: 100.474064
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.042335
+5th percentile/95th percentile: 0.035920, 0.070129
+1st percentile/99th percentile: 0.034015, 0.116263
+Total throughput: 101.270733
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.043072
+5th percentile/95th percentile: 0.036734, 0.070156
+1st percentile/99th percentile: 0.034759, 0.109964
+Total throughput: 99.130724
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.042299
+5th percentile/95th percentile: 0.035642, 0.069933
+1st percentile/99th percentile: 0.033508, 0.114469
+Total throughput: 99.974924
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.043369
+5th percentile/95th percentile: 0.036810, 0.073614
+1st percentile/99th percentile: 0.034905, 0.121397
+Total throughput: 96.605319
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.042542
+5th percentile/95th percentile: 0.035845, 0.072590
+1st percentile/99th percentile: 0.033763, 0.126994
+Total throughput: 98.472022
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.042645
+5th percentile/95th percentile: 0.036161, 0.070126
+1st percentile/99th percentile: 0.033791, 0.115618
+Total throughput: 100.144388
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.042653
+5th percentile/95th percentile: 0.036080, 0.070954
+1st percentile/99th percentile: 0.033817, 0.112897
+Total throughput: 100.230633
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.042471
+5th percentile/95th percentile: 0.036002, 0.070487
+1st percentile/99th percentile: 0.033820, 0.118149
+Total throughput: 99.157804
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.042482
+5th percentile/95th percentile: 0.036058, 0.072043
+1st percentile/99th percentile: 0.033890, 0.118516
+Total throughput: 98.468189
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.042562
+5th percentile/95th percentile: 0.036126, 0.071878
+1st percentile/99th percentile: 0.033972, 0.118722
+Total throughput: 98.534802
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.042466
+5th percentile/95th percentile: 0.035790, 0.071644
+1st percentile/99th percentile: 0.033819, 0.114872
+Total throughput: 98.495707
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.042741
+5th percentile/95th percentile: 0.036216, 0.072255
+1st percentile/99th percentile: 0.034264, 0.115262
+Total throughput: 99.558088
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.042283
+5th percentile/95th percentile: 0.035823, 0.070012
+1st percentile/99th percentile: 0.033787, 0.110987
+Total throughput: 102.296624
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.043235
+5th percentile/95th percentile: 0.037033, 0.072247
+1st percentile/99th percentile: 0.035120, 0.117653
+Total throughput: 99.421340
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.042503
+5th percentile/95th percentile: 0.036039, 0.070571
+1st percentile/99th percentile: 0.033997, 0.117345
+Total throughput: 98.764555
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.043123
+5th percentile/95th percentile: 0.036695, 0.070022
+1st percentile/99th percentile: 0.034791, 0.115165
+Total throughput: 98.467158
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.043266
+5th percentile/95th percentile: 0.036710, 0.074690
+1st percentile/99th percentile: 0.034783, 0.118652
+Total throughput: 97.837431
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.042502
+5th percentile/95th percentile: 0.035884, 0.069345
+1st percentile/99th percentile: 0.033883, 0.112106
+Total throughput: 102.054940
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.042296
+5th percentile/95th percentile: 0.035612, 0.070513
+1st percentile/99th percentile: 0.033635, 0.110749
+Total throughput: 101.841695
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.043267
+5th percentile/95th percentile: 0.036842, 0.073617
+1st percentile/99th percentile: 0.035202, 0.115998
+Total throughput: 97.506685
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.043155
+5th percentile/95th percentile: 0.036936, 0.071308
+1st percentile/99th percentile: 0.035071, 0.115393
+Total throughput: 98.472138
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.042392
+5th percentile/95th percentile: 0.035962, 0.071356
+1st percentile/99th percentile: 0.034085, 0.110794
+Total throughput: 102.090939
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.042341
+5th percentile/95th percentile: 0.035891, 0.072082
+1st percentile/99th percentile: 0.033741, 0.114666
+Total throughput: 99.283448
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.043248
+5th percentile/95th percentile: 0.036905, 0.072507
+1st percentile/99th percentile: 0.035023, 0.112602
+Total throughput: 98.316837
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.042498
+5th percentile/95th percentile: 0.035945, 0.070335
+1st percentile/99th percentile: 0.033795, 0.111115
+Total throughput: 100.179667
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.042534
+5th percentile/95th percentile: 0.036018, 0.071100
+1st percentile/99th percentile: 0.034218, 0.110054
+Total throughput: 101.175187
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.042474
+5th percentile/95th percentile: 0.035834, 0.071653
+1st percentile/99th percentile: 0.033722, 0.114518
+Total throughput: 102.511194
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.043180
+5th percentile/95th percentile: 0.036757, 0.071514
+1st percentile/99th percentile: 0.034563, 0.118928
+Total throughput: 97.314121
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.043495
+5th percentile/95th percentile: 0.036982, 0.072334
+1st percentile/99th percentile: 0.035154, 0.109279
+Total throughput: 97.962878
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.042366
+5th percentile/95th percentile: 0.035817, 0.070469
+1st percentile/99th percentile: 0.033764, 0.115451
+Total throughput: 100.024237
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.043331
+5th percentile/95th percentile: 0.037164, 0.071056
+1st percentile/99th percentile: 0.035095, 0.118377
+Total throughput: 99.501415
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.042432
+5th percentile/95th percentile: 0.035938, 0.069819
+1st percentile/99th percentile: 0.034255, 0.113554
+Total throughput: 100.501642
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.042591
+5th percentile/95th percentile: 0.035990, 0.069278
+1st percentile/99th percentile: 0.034157, 0.113145
+Total throughput: 102.299439
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.043116
+5th percentile/95th percentile: 0.036767, 0.071816
+1st percentile/99th percentile: 0.034909, 0.119468
+Total throughput: 98.575816
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.042515
+5th percentile/95th percentile: 0.035881, 0.070564
+1st percentile/99th percentile: 0.034054, 0.113434
+Total throughput: 100.316570
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.043195
+5th percentile/95th percentile: 0.036684, 0.070756
+1st percentile/99th percentile: 0.034794, 0.116733
+Total throughput: 99.808937
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.042221
+5th percentile/95th percentile: 0.035749, 0.070047
+1st percentile/99th percentile: 0.034146, 0.112333
+Total throughput: 100.946069
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.042464
+5th percentile/95th percentile: 0.035843, 0.073114
+1st percentile/99th percentile: 0.033986, 0.109563
+Total throughput: 99.580175
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.042866
+5th percentile/95th percentile: 0.036462, 0.075001
+1st percentile/99th percentile: 0.034806, 0.117241
+Total throughput: 98.970988
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.042554
+5th percentile/95th percentile: 0.036061, 0.072533
+1st percentile/99th percentile: 0.033925, 0.117785
+Total throughput: 98.329319
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.042458
+5th percentile/95th percentile: 0.035684, 0.070722
+1st percentile/99th percentile: 0.033582, 0.111889
+Total throughput: 100.429416
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.042660
+5th percentile/95th percentile: 0.035910, 0.070182
+1st percentile/99th percentile: 0.033907, 0.117455
+Total throughput: 97.872516
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.043358
+5th percentile/95th percentile: 0.037007, 0.072987
+1st percentile/99th percentile: 0.035373, 0.114748
+Total throughput: 96.331369
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.042388
+5th percentile/95th percentile: 0.035945, 0.070614
+1st percentile/99th percentile: 0.033740, 0.110407
+Total throughput: 100.414053
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.042598
+5th percentile/95th percentile: 0.036141, 0.072400
+1st percentile/99th percentile: 0.034259, 0.124367
+Total throughput: 98.504164
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.043379
+5th percentile/95th percentile: 0.037122, 0.070698
+1st percentile/99th percentile: 0.035277, 0.120047
+Total throughput: 97.574635
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.042415
+5th percentile/95th percentile: 0.035758, 0.070781
+1st percentile/99th percentile: 0.033599, 0.113854
+Total throughput: 102.813323
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.042558
+5th percentile/95th percentile: 0.036193, 0.071353
+1st percentile/99th percentile: 0.034135, 0.112564
+Total throughput: 100.269287
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.043049
+5th percentile/95th percentile: 0.036738, 0.073389
+1st percentile/99th percentile: 0.034845, 0.120958
+Total throughput: 98.676989
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.042321
+5th percentile/95th percentile: 0.035868, 0.069842
+1st percentile/99th percentile: 0.034001, 0.110582
+Total throughput: 101.303815
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.043150
+5th percentile/95th percentile: 0.036726, 0.071965
+1st percentile/99th percentile: 0.034763, 0.118064
+Total throughput: 95.777784
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.042430
+5th percentile/95th percentile: 0.035860, 0.071462
+1st percentile/99th percentile: 0.034105, 0.116417
+Total throughput: 100.112051
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.043334
+5th percentile/95th percentile: 0.036794, 0.073427
+1st percentile/99th percentile: 0.034806, 0.117518
+Total throughput: 97.294719
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.042322
+5th percentile/95th percentile: 0.035749, 0.070007
+1st percentile/99th percentile: 0.033421, 0.112124
+Total throughput: 102.764752
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.043129
+5th percentile/95th percentile: 0.036770, 0.070803
+1st percentile/99th percentile: 0.034865, 0.115752
+Total throughput: 100.343028
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.048948
+5th percentile/95th percentile: 0.037973, 0.085013
+1st percentile/99th percentile: 0.035833, 0.121660
+Total throughput: 87.559848
+
+Finished!
+➜  benchmark git:(master) ✗

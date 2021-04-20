@@ -1,0 +1,4 @@
+# Configuration   S3    S3-p99    DynamoDB    DynamoDB-p99    Redis     Redis-p99     lc     tc
+Transactional     0     0         81.1        351             0         0             11     2
+"Lambda w/o Aft"  199   649       69.1        137             33.6      72.5          13     1
+"Lambda w/Aft"    245   742       68.8        141             39.8      87.8          16     1

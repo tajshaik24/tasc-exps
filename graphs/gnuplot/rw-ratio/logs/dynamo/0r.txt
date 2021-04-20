@@ -1,0 +1,11 @@
+Found 1 servers:
+	-54.90.189.47
+Starting benchmark at 2020-02-28 20:05:44.074187
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.056498
+5th percentile/95th percentile: 0.046624, 0.086164
+1st percentile/99th percentile: 0.043733, 0.130317
+Total throughput: 82.061536
+
+Finished!

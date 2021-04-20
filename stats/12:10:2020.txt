@@ -1,0 +1,168 @@
+Throughput: 
+1000 Transactions: 1 Write, 1 Read
+Found 1 servers:
+18.234.42.191
+Starting benchmark at 2020-12-17 22:48:18.273004
+Printing output from benchmark runs...
+Benchmark output from one benchmark server:
+End to End Latencies
+	Median latency: 0.009561
+	5th percentile/95th percentile: 0.009077, 0.010523
+	1st percentile/99th percentile: 0.008923, 0.021148
+
+Throughput of the system
+Number of Clients: 1	Total Throughput: 100.089059
+
+
+Found 1 servers:
+18.234.42.191
+Starting benchmark at 2020-12-17 22:51:16.444774
+Printing output from benchmark runs...
+Benchmark output from one benchmark server:
+End to End Latencies
+	Median latency: 0.009302
+	5th percentile/95th percentile: 0.008892, 0.009831
+	1st percentile/99th percentile: 0.008733, 0.010578
+
+Throughput of the system
+Number of Clients: 2	Total Throughput: 212.985948
+
+Found 1 servers:
+18.234.42.191
+Starting benchmark at 2020-12-17 22:52:28.621629
+Printing output from benchmark runs...
+Benchmark output from one benchmark server:
+End to End Latencies
+	Median latency: 0.009369
+	5th percentile/95th percentile: 0.008920, 0.013908
+	1st percentile/99th percentile: 0.008761, 0.019192
+
+Throughput of the system
+Number of Clients: 3	Total Throughput: 295.387848
+
+Latencies:
+1 Writes, 0 Reads
+Found 1 servers:
+18.234.42.191
+Starting benchmark at 2020-12-17 22:53:38.573990
+Printing output from benchmark runs...
+Benchmark output from one benchmark server:
+End to End Latencies
+	Median latency: 0.009013
+	5th percentile/95th percentile: 0.008591, 0.009631
+	1st percentile/99th percentile: 0.008441, 0.011795
+
+Throughput of the system
+Number of Clients: 1	Total Throughput: 106.226938
+
+2 Writes, 0 Reads
+Found 1 servers:
+18.234.42.191
+Starting benchmark at 2020-12-17 22:54:22.803225
+Printing output from benchmark runs...
+Benchmark output from one benchmark server:
+End to End Latencies
+	Median latency: 0.012940
+	5th percentile/95th percentile: 0.012424, 0.013622
+	1st percentile/99th percentile: 0.012240, 0.014630
+
+Throughput of the system
+Number of Clients: 1	Total Throughput: 75.698747
+
+3 Writes, 0 Reads
+Found 1 servers:
+18.234.42.191
+Starting benchmark at 2020-12-17 22:54:56.883908
+Printing output from benchmark runs...
+Benchmark output from one benchmark server:
+End to End Latencies
+	Median latency: 0.016952
+	5th percentile/95th percentile: 0.016369, 0.017824
+	1st percentile/99th percentile: 0.016142, 0.023649
+
+Throughput of the system
+Number of Clients: 1	Total Throughput: 57.166252
+
+5 Writes, 0 Reads
+Found 1 servers:
+18.234.42.191
+Starting benchmark at 2020-12-17 22:55:27.327501
+Printing output from benchmark runs...
+Benchmark output from one benchmark server:
+End to End Latencies
+	Median latency: 0.024895
+	5th percentile/95th percentile: 0.024132, 0.025858
+	1st percentile/99th percentile: 0.023777, 0.044433
+
+Throughput of the system
+Number of Clients: 1	Total Throughput: 39.139482
+
+5 Writes, 0 Reads
+Found 1 servers:
+18.234.42.191
+Starting benchmark at 2020-12-17 23:12:53.904622
+Printing output from benchmark runs...
+Benchmark output from one benchmark server:
+End to End Latencies
+	Median latency: 0.024534
+	5th percentile/95th percentile: 0.023838, 0.025772
+	1st percentile/99th percentile: 0.023604, 0.067769
+
+Throughput of the system
+Number of Clients: 1	Total Throughput: 38.951940
+
+4 Writes, 1 Read
+Found 1 servers:
+18.234.42.191
+Starting benchmark at 2020-12-17 23:14:19.296690
+Printing output from benchmark runs...
+Benchmark output from one benchmark server:
+End to End Latencies
+	Median latency: 0.021335
+	5th percentile/95th percentile: 0.020672, 0.022499
+	1st percentile/99th percentile: 0.020445, 0.035286
+
+Throughput of the system
+Number of Clients: 1	Total Throughput: 44.933509
+
+3 Writes, 2 Reads
+Found 1 servers:
+18.234.42.191
+Starting benchmark at 2020-12-17 23:15:24.289209
+Printing output from benchmark runs...
+Benchmark output from one benchmark server:
+End to End Latencies
+	Median latency: 0.017895
+	5th percentile/95th percentile: 0.017258, 0.018924
+	1st percentile/99th percentile: 0.017034, 0.021433
+
+Throughput of the system
+Number of Clients: 1	Total Throughput: 54.281479
+
+2 Writes, 3 Reads
+Found 1 servers:
+18.234.42.191
+Starting benchmark at 2020-12-17 23:16:03.154766
+Printing output from benchmark runs...
+Benchmark output from one benchmark server:
+End to End Latencies
+	Median latency: 0.014365
+	5th percentile/95th percentile: 0.013888, 0.015224
+	1st percentile/99th percentile: 0.013706, 0.017308
+
+Throughput of the system
+Number of Clients: 1	Total Throughput: 67.393639
+
+1 Write, 4 Reads
+Found 1 servers:
+18.234.42.191
+Starting benchmark at 2020-12-17 23:16:36.313374
+Printing output from benchmark runs...
+Benchmark output from one benchmark server:
+End to End Latencies
+	Median latency: 0.010698
+	5th percentile/95th percentile: 0.010267, 0.011404
+	1st percentile/99th percentile: 0.010135, 0.012566
+
+Throughput of the system
+Number of Clients: 1	Total Throughput: 91.647375

@@ -1,0 +1,73 @@
+Found 8 servers:
+	-3.90.105.233
+	-54.172.51.171
+	-3.88.211.126
+	-54.242.71.161
+	-34.201.50.168
+	-3.80.114.90
+	-34.229.173.28
+	-54.235.58.85
+Starting benchmark at 2019-11-02 21:59:46.477209
+Starting benchmark type aft with 5000 requests across 5 threads...
+Errors: [{"errorMessage":"2019-11-02T22:00:18.101Z 9ef8d35e-0dd0-40e5-a132-ebdb40c803eb Task timed out after 1.00 seconds"} {"errorMessage":"2019-11-02T22:00:29.557Z 53b5e349-f2ee-4b02-9b21-453eabf21171 Task timed out after 1.00 seconds"}]
+Number of errors: 2
+Median latency: 0.066808
+5th percentile/95th percentile: 0.054337, 0.113899
+1st percentile/99th percentile: 0.050913, 0.190654
+Total throughput: 68.116900
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.065504
+5th percentile/95th percentile: 0.053016, 0.115455
+1st percentile/99th percentile: 0.049409, 0.183171
+Total throughput: 69.193602
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Errors: [{"errorMessage":"2019-11-02T22:00:37.452Z 334a1b4d-c1d6-4137-a162-15f62aaf36f8 Task timed out after 1.00 seconds"} {"errorMessage":"2019-11-02T22:00:34.537Z 47b8324e-6e96-4980-8baf-c7b63c3a1d69 Task timed out after 1.00 seconds"} {"errorMessage":"2019-11-02T22:00:36.532Z 60f00ad9-11a7-4b00-8e61-3e959da5db99 Task timed out after 1.00 seconds"}]
+Number of errors: 3
+Median latency: 0.066357
+5th percentile/95th percentile: 0.054188, 0.114967
+1st percentile/99th percentile: 0.050349, 0.188435
+Total throughput: 68.571143
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Errors: [{"errorMessage":"2019-11-02T22:00:19.056Z a0793646-fc0f-401a-adf7-d5185e6ce36e Task timed out after 1.00 seconds"} {"errorMessage":"2019-11-02T22:00:30.632Z 555e1e55-97f9-4f7d-abb3-a082d17ba69b Task timed out after 1.00 seconds"}]
+Number of errors: 2
+Median latency: 0.066120
+5th percentile/95th percentile: 0.053591, 0.115112
+1st percentile/99th percentile: 0.049922, 0.196523
+Total throughput: 69.221032
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Errors: [{"errorMessage":"2019-11-02T22:00:27.582Z 3af9209d-4bcf-46ba-b94d-fe67ffb2eb46 Task timed out after 1.00 seconds"} {"errorMessage":"2019-11-02T22:00:16.628Z 4331d72e-b99e-4220-8346-cd41062f1675 Task timed out after 1.00 seconds"} {"errorMessage":"2019-11-02T22:00:33.573Z 6740d9cc-bfd6-4f9d-8d61-0ce8c065a807 Task timed out after 1.00 seconds"} {"errorMessage":"2019-11-02T22:00:15.636Z a151e283-d230-4cc8-9d08-056a5b7d5994 Task timed out after 1.00 seconds"} {"errorMessage":"2019-11-02T22:00:32.580Z 8cf14986-0ddd-4602-9b03-dfd0e1148759 Task timed out after 1.00 seconds"}]
+Number of errors: 5
+Median latency: 0.066843
+5th percentile/95th percentile: 0.054640, 0.118752
+1st percentile/99th percentile: 0.050707, 0.190284
+Total throughput: 67.638545
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Errors: [{"errorMessage":"2019-11-02T22:00:28.594Z 58200776-1806-46f4-bde6-b55de5267bf6 Task timed out after 1.00 seconds"}]
+Number of errors: 1
+Median latency: 0.065571
+5th percentile/95th percentile: 0.053470, 0.111449
+1st percentile/99th percentile: 0.049422, 0.176101
+Total throughput: 70.323288
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.066766
+5th percentile/95th percentile: 0.054568, 0.119060
+1st percentile/99th percentile: 0.050795, 0.187490
+Total throughput: 69.030899
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Errors: [{"errorMessage":"2019-11-02T22:00:31.570Z 973ff530-a08c-444d-8cf8-87b5aeb0326d Task timed out after 1.00 seconds"} {"errorMessage":"2019-11-02T22:00:20.100Z c8aa4626-c4ae-4480-94b9-c5ecf23dbdee Task timed out after 1.00 seconds"} {"errorMessage":"2019-11-02T22:00:21.044Z 6e9bcc4a-9be9-4e7d-a247-25324f1bfb1e Task timed out after 1.00 seconds"} {"errorMessage":"2019-11-02T22:00:35.433Z 4a73e432-6bca-4c4b-9b8b-398f2c37ec7a Task timed out after 1.00 seconds"}]
+Number of errors: 4
+Median latency: 0.066993
+5th percentile/95th percentile: 0.054731, 0.114804
+1st percentile/99th percentile: 0.050733, 0.192903
+Total throughput: 68.333833
+
+Finished!

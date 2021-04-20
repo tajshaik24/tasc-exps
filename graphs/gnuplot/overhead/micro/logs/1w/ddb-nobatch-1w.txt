@@ -1,0 +1,4 @@
+E2E LATENCIES:
+	Median latency: 0.003028
+	5th percentile/95th percentile: 0.002890, 0.003625
+	1st percentile/99th percentile: 0.002853, 0.005445

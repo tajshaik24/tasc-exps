@@ -1,0 +1,67 @@
+Found 8 servers:
+	-35.175.196.20
+	-18.215.153.205
+	-54.242.82.5
+	-3.94.119.59
+	-3.88.107.41
+	-52.55.169.234
+	-3.91.194.214
+	-54.196.228.237
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.120151
+5th percentile/95th percentile: 0.068710, 0.236207
+1st percentile/99th percentile: 0.060687, 0.320055
+Total throughput: 36.861114
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.120502
+5th percentile/95th percentile: 0.068117, 0.246631
+1st percentile/99th percentile: 0.060262, 0.323916
+Total throughput: 36.602383
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.120627
+5th percentile/95th percentile: 0.069305, 0.247069
+1st percentile/99th percentile: 0.061654, 0.327387
+Total throughput: 36.203794
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.120307
+5th percentile/95th percentile: 0.068355, 0.244188
+1st percentile/99th percentile: 0.061449, 0.324352
+Total throughput: 36.763881
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.120690
+5th percentile/95th percentile: 0.068337, 0.243778
+1st percentile/99th percentile: 0.060329, 0.327779
+Total throughput: 36.692642
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.119833
+5th percentile/95th percentile: 0.067810, 0.245267
+1st percentile/99th percentile: 0.060664, 0.322778
+Total throughput: 36.657211
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.120942
+5th percentile/95th percentile: 0.069121, 0.240605
+1st percentile/99th percentile: 0.061609, 0.318176
+Total throughput: 36.086363
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Errors: [{"errorMessage": "<_Rendezvous of RPC that terminated with:\n\tstatus = StatusCode.UNKNOWN\n\tdetails = \"ResourceNotFoundException: Requested resource not found\n\tstatus code: 400, request id: MG3ECFBRS2LTTQK0HI8M9IOBBVVV4KQNSO5AEMVJF66Q9ASUAAJG\"\n\tdebug_error_string = \"{\"created\":\"@1571869057.991727291\",\"description\":\"Error received from peer ipv4:54.159.37.198:7654\",\"file\":\"src/core/lib/surface/call.cc\",\"file_line\":1055,\"grpc_message\":\"ResourceNotFoundException: Requested resource not found\\n\\tstatus code: 400, request id: MG3ECFBRS2LTTQK0HI8M9IOBBVVV4KQNSO5AEMVJF66Q9ASUAAJG\",\"grpc_status\":2}\"\n>", "errorType": "_Rendezvous", "stackTrace": ["  File \"/var/task/distributed_handler.py\", line 58, in handler\n    client.Read(update)\n", "  File \"/var/task/grpc/_channel.py\", line 604, in __call__\n    return _end_unary_response_blocking(state, call, False, None)\n", "  File \"/var/task/grpc/_channel.py\", line 506, in _end_unary_response_blocking\n    raise _Rendezvous(state, None, None, deadline)\n"]}]
+Number of errors: 1
+Median latency: 0.120360
+5th percentile/95th percentile: 0.068057, 0.242127
+1st percentile/99th percentile: 0.060179, 0.312762
+Total throughput: 36.795690
+
+Finished!

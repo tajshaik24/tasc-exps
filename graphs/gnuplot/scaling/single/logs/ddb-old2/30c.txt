@@ -1,0 +1,51 @@
+Found 6 servers:
+	-35.175.196.20
+	-54.242.82.5
+	-3.88.107.41
+	-52.55.169.234
+	-3.91.194.214
+	-54.196.228.237
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.086957
+5th percentile/95th percentile: 0.061944, 0.155871
+1st percentile/99th percentile: 0.056801, 0.204278
+Total throughput: 51.070316
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.087396
+5th percentile/95th percentile: 0.062116, 0.154328
+1st percentile/99th percentile: 0.057047, 0.202323
+Total throughput: 50.005021
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.087575
+5th percentile/95th percentile: 0.062887, 0.154951
+1st percentile/99th percentile: 0.056862, 0.202156
+Total throughput: 50.473274
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.086593
+5th percentile/95th percentile: 0.062210, 0.152793
+1st percentile/99th percentile: 0.057253, 0.205120
+Total throughput: 50.762194
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Errors: [{"errorMessage": "<_Rendezvous of RPC that terminated with:\n\tstatus = StatusCode.UNAVAILABLE\n\tdetails = \"failed to connect to all addresses\"\n\tdebug_error_string = \"{\"created\":\"@1571867476.700936358\",\"description\":\"Failed to pick subchannel\",\"file\":\"src/core/ext/filters/client_channel/client_channel.cc\",\"file_line\":3876,\"referenced_errors\":[{\"created\":\"@1571867476.700931265\",\"description\":\"failed to connect to all addresses\",\"file\":\"src/core/ext/filters/client_channel/lb_policy/pick_first/pick_first.cc\",\"file_line\":395,\"grpc_status\":14}]}\"\n>", "errorType": "_Rendezvous", "stackTrace": ["  File \"/var/task/distributed_handler.py\", line 51, in handler\n    client.Write(update)\n", "  File \"/var/task/grpc/_channel.py\", line 604, in __call__\n    return _end_unary_response_blocking(state, call, False, None)\n", "  File \"/var/task/grpc/_channel.py\", line 506, in _end_unary_response_blocking\n    raise _Rendezvous(state, None, None, deadline)\n"]}]
+Number of errors: 1
+Median latency: 0.086233
+5th percentile/95th percentile: 0.061368, 0.152801
+1st percentile/99th percentile: 0.056663, 0.202098
+Total throughput: 49.187067
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.087001
+5th percentile/95th percentile: 0.062052, 0.156883
+1st percentile/99th percentile: 0.056818, 0.200436
+Total throughput: 50.542450
+
+Finished!

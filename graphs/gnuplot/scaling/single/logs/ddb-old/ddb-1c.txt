@@ -1,0 +1,6 @@
+Starting benchmark with 1000 requests across 1 threads...
+Number of errors: 0
+Median latency: 0.068824
+5th percentile/95th percentile: 0.060022, 0.101297
+1st percentile/99th percentile: 0.057767, 0.141482
+Total throughput: 12.966881

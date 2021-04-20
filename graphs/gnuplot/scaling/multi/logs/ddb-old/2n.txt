@@ -1,0 +1,66 @@
+Found 8 servers:
+	-18.212.236.85
+	-54.147.128.4
+	-54.227.188.186
+	-3.90.243.169
+	-3.89.163.100
+	-54.175.114.217
+	-34.230.76.55
+	-52.23.170.122
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.077958
+5th percentile/95th percentile: 0.060702, 0.120689
+1st percentile/99th percentile: 0.055833, 0.156000
+Total throughput: 56.962946
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.077459
+5th percentile/95th percentile: 0.060678, 0.122297
+1st percentile/99th percentile: 0.056574, 0.157800
+Total throughput: 57.184557
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.077812
+5th percentile/95th percentile: 0.060154, 0.120784
+1st percentile/99th percentile: 0.056128, 0.151328
+Total throughput: 57.239050
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.078352
+5th percentile/95th percentile: 0.061737, 0.123338
+1st percentile/99th percentile: 0.056974, 0.159806
+Total throughput: 56.367955
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.078533
+5th percentile/95th percentile: 0.061773, 0.120751
+1st percentile/99th percentile: 0.057289, 0.161148
+Total throughput: 56.392699
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.078099
+5th percentile/95th percentile: 0.060841, 0.121208
+1st percentile/99th percentile: 0.055705, 0.155279
+Total throughput: 57.017066
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.077629
+5th percentile/95th percentile: 0.060863, 0.120426
+1st percentile/99th percentile: 0.056219, 0.153461
+Total throughput: 56.946230
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.079011
+5th percentile/95th percentile: 0.061936, 0.121775
+1st percentile/99th percentile: 0.057442, 0.154421
+Total throughput: 56.239406
+
+Finished!

@@ -1,0 +1,38 @@
+Found 2 servers:
+	-54.234.93.10
+	-3.93.170.247
+Starting benchmark type plain with 5000 requests across 5 threads...
+Write-read inconsistencies:  64
+Read-read inconsistencies:  92
+Write-read inconsistencies:  50
+Read-read inconsistencies:  83
+Write-read inconsistencies:  45
+Read-read inconsistencies:  59
+Write-read inconsistencies:  55
+Read-read inconsistencies:  84
+Write-read inconsistencies:  57
+Read-read inconsistencies:  92
+Number of errors: 0
+Median latency: 0.069205
+5th percentile/95th percentile: 0.063094, 0.097397
+1st percentile/99th percentile: 0.061414, 0.138806
+Total throughput: 68.166851
+
+Starting benchmark type plain with 5000 requests across 5 threads...
+Write-read inconsistencies:  66
+Read-read inconsistencies:  83
+Write-read inconsistencies:  47
+Read-read inconsistencies:  79
+Write-read inconsistencies:  44
+Read-read inconsistencies:  69
+Write-read inconsistencies:  59
+Read-read inconsistencies:  62
+Write-read inconsistencies:  50
+Read-read inconsistencies:  76
+Number of errors: 0
+Median latency: 0.069086
+5th percentile/95th percentile: 0.062947, 0.099728
+1st percentile/99th percentile: 0.061225, 0.137331
+Total throughput: 68.410644
+
+Finished!

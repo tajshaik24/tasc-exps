@@ -1,0 +1,76 @@
+➜  benchmark git:(master) ✗ python3 benchmark_trigger.py -r 1000 -t 5 -rp 52.90.232.227 -tp 1
+Found 9 servers:
+	-3.88.227.75
+	-3.88.58.239
+	-3.80.42.49
+	-54.235.42.7
+	-50.19.183.61
+	-54.208.1.193
+	-3.82.25.128
+	-3.85.3.203
+	-34.230.29.79
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.044938
+5th percentile/95th percentile: 0.038257, 0.066519
+1st percentile/99th percentile: 0.036580, 0.094877
+Total throughput: 104.302959
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.044912
+5th percentile/95th percentile: 0.038108, 0.066258
+1st percentile/99th percentile: 0.036425, 0.098291
+Total throughput: 104.222203
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.045086
+5th percentile/95th percentile: 0.038207, 0.066943
+1st percentile/99th percentile: 0.036561, 0.098185
+Total throughput: 103.890569
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.044842
+5th percentile/95th percentile: 0.037940, 0.065587
+1st percentile/99th percentile: 0.036353, 0.091607
+Total throughput: 104.725128
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.045498
+5th percentile/95th percentile: 0.038725, 0.066169
+1st percentile/99th percentile: 0.037109, 0.096628
+Total throughput: 103.090590
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.045254
+5th percentile/95th percentile: 0.038395, 0.067739
+1st percentile/99th percentile: 0.036673, 0.100765
+Total throughput: 103.235499
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.044928
+5th percentile/95th percentile: 0.038116, 0.066647
+1st percentile/99th percentile: 0.036478, 0.092631
+Total throughput: 104.109222
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.045145
+5th percentile/95th percentile: 0.038289, 0.066207
+1st percentile/99th percentile: 0.036681, 0.096386
+Total throughput: 103.707715
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.044869
+5th percentile/95th percentile: 0.038172, 0.066254
+1st percentile/99th percentile: 0.036354, 0.093780
+Total throughput: 104.600252
+
+Finished!
+➜  benchmark git:(master) ✗

@@ -1,0 +1,8 @@
+WRITE LATENCIES:
+	Median latency: 0.000432
+	5th percentile/95th percentile: 0.000390, 0.000692
+	1st percentile/99th percentile: 0.000377, 0.000887
+E2E LATENCIES:
+	Median latency: 0.010225
+	5th percentile/95th percentile: 0.009518, 0.011727
+	1st percentile/99th percentile: 0.009274, 0.017200

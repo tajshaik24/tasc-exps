@@ -1,0 +1,10 @@
+Found 1 servers:
+	-3.88.227.75
+Starting benchmark type aft with 1000 requests across 1 threads...
+Number of errors: 0
+Median latency: 0.045105
+5th percentile/95th percentile: 0.039430, 0.060561
+1st percentile/99th percentile: 0.037732, 0.089749
+Total throughput: 21.274603
+
+Finished!

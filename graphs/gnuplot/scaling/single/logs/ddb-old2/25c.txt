@@ -1,0 +1,44 @@
+Found 5 servers:
+	-35.175.196.20
+	-3.88.107.41
+	-52.55.169.234
+	-3.91.194.214
+	-54.196.228.237
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.078842
+5th percentile/95th percentile: 0.061060, 0.124620
+1st percentile/99th percentile: 0.056512, 0.157691
+Total throughput: 57.951198
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.078698
+5th percentile/95th percentile: 0.060468, 0.127459
+1st percentile/99th percentile: 0.056000, 0.166987
+Total throughput: 56.974454
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Errors: [{"errorMessage":"2019-10-23T21:33:49.229Z 81762d01-5c05-4adb-bb2e-56f54e30c91a Task timed out after 60.00 seconds"} {"errorMessage":"2019-10-23T21:33:49.221Z 6fc19456-9b00-485f-80ce-1703ef302d88 Task timed out after 60.03 seconds"}]
+Number of errors: 2
+Median latency: 0.078507
+5th percentile/95th percentile: 0.061072, 0.124507
+1st percentile/99th percentile: 0.056143, 0.158904
+Total throughput: 48.159298
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Errors: [{"errorMessage":"2019-10-23T21:33:49.292Z 89f77ba6-0276-4b8b-bd8d-e3e595f2c359 Task timed out after 60.05 seconds"}]
+Number of errors: 1
+Median latency: 0.078775
+5th percentile/95th percentile: 0.061161, 0.124667
+1st percentile/99th percentile: 0.056295, 0.159520
+Total throughput: 52.471338
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.078752
+5th percentile/95th percentile: 0.061011, 0.126205
+1st percentile/99th percentile: 0.056270, 0.164505
+Total throughput: 56.535449
+
+Finished!

@@ -1,0 +1,897 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    12  100    12    0     0  12000      0 --:--:-- --:--:-- --:--:-- 12000
+From https://github.com/vsreekanti/aft
+ + aaa7de9...2fcc423 master     -> origin/master  (forced update)
+Switched to a new branch 'brnch'
+Branch 'brnch' set up to track remote branch 'master' from 'origin'.
+2019-11-02 21:58:21.469836685 +0000 UTC m=+1.011707897: Deleted 0 transactions in the last second.
+2019-11-02 21:58:22.476590007 +0000 UTC m=+2.018461205: Deleted 0 transactions in the last second.
+2019-11-02 21:58:23.48326993 +0000 UTC m=+3.025141128: Deleted 0 transactions in the last second.
+2019-11-02 21:58:24.489908757 +0000 UTC m=+4.031779958: Deleted 0 transactions in the last second.
+2019-11-02 21:58:25.496614622 +0000 UTC m=+5.038485820: Deleted 0 transactions in the last second.
+2019-11-02 21:58:26.503315163 +0000 UTC m=+6.045186367: Deleted 0 transactions in the last second.
+2019-11-02 21:58:27.509883339 +0000 UTC m=+7.051754539: Deleted 0 transactions in the last second.
+2019-11-02 21:58:28.516644134 +0000 UTC m=+8.058515339: Deleted 0 transactions in the last second.
+2019-11-02 21:58:29.523355613 +0000 UTC m=+9.065226823: Deleted 0 transactions in the last second.
+2019-11-02 21:58:30.530000512 +0000 UTC m=+10.071871715: Deleted 0 transactions in the last second.
+2019-11-02 21:58:31.536705112 +0000 UTC m=+11.078576311: Deleted 0 transactions in the last second.
+2019-11-02 21:58:32.543471413 +0000 UTC m=+12.085342611: Deleted 0 transactions in the last second.
+2019-11-02 21:58:33.55020611 +0000 UTC m=+13.092077305: Deleted 0 transactions in the last second.
+2019-11-02 21:58:34.556880823 +0000 UTC m=+14.098752023: Deleted 0 transactions in the last second.
+2019-11-02 21:58:35.563726875 +0000 UTC m=+15.105598074: Deleted 0 transactions in the last second.
+2019-11-02 21:58:36.570481312 +0000 UTC m=+16.112352515: Deleted 0 transactions in the last second.
+2019-11-02 21:58:37.577089591 +0000 UTC m=+17.118960793: Deleted 0 transactions in the last second.
+2019-11-02 21:58:38.583770229 +0000 UTC m=+18.125641425: Deleted 0 transactions in the last second.
+2019-11-02 21:58:39.590381479 +0000 UTC m=+19.132252685: Deleted 0 transactions in the last second.
+2019-11-02 21:58:40.597069761 +0000 UTC m=+20.138940976: Deleted 0 transactions in the last second.
+2019-11-02 21:58:41.603772884 +0000 UTC m=+21.145644086: Deleted 0 transactions in the last second.
+2019-11-02 21:58:42.610514806 +0000 UTC m=+22.152386009: Deleted 0 transactions in the last second.
+2019-11-02 21:58:43.617207359 +0000 UTC m=+23.159078557: Deleted 0 transactions in the last second.
+2019-11-02 21:58:44.62387185 +0000 UTC m=+24.165743053: Deleted 0 transactions in the last second.
+2019-11-02 21:58:45.630619096 +0000 UTC m=+25.172490389: Deleted 0 transactions in the last second.
+2019-11-02 21:58:46.63732881 +0000 UTC m=+26.179200010: Deleted 0 transactions in the last second.
+2019-11-02 21:58:47.644039714 +0000 UTC m=+27.185910914: Deleted 0 transactions in the last second.
+2019-11-02 21:58:48.650725081 +0000 UTC m=+28.192596283: Deleted 0 transactions in the last second.
+2019-11-02 21:58:49.657451705 +0000 UTC m=+29.199322924: Deleted 0 transactions in the last second.
+2019-11-02 21:58:50.664124232 +0000 UTC m=+30.205995428: Deleted 0 transactions in the last second.
+2019-11-02 21:58:51.670845148 +0000 UTC m=+31.212716346: Deleted 0 transactions in the last second.
+2019-11-02 21:58:52.677732983 +0000 UTC m=+32.219604186: Deleted 0 transactions in the last second.
+2019-11-02 21:58:53.684508171 +0000 UTC m=+33.226379373: Deleted 0 transactions in the last second.
+2019-11-02 21:58:54.691233564 +0000 UTC m=+34.233104766: Deleted 0 transactions in the last second.
+2019-11-02 21:58:55.698065165 +0000 UTC m=+35.239936367: Deleted 0 transactions in the last second.
+2019-11-02 21:58:56.704873446 +0000 UTC m=+36.246744647: Deleted 0 transactions in the last second.
+2019-11-02 21:58:57.711647346 +0000 UTC m=+37.253518541: Deleted 0 transactions in the last second.
+2019-11-02 21:58:58.718281864 +0000 UTC m=+38.260153067: Deleted 0 transactions in the last second.
+2019-11-02 21:58:59.724965558 +0000 UTC m=+39.266836760: Deleted 0 transactions in the last second.
+2019-11-02 21:59:00.731696838 +0000 UTC m=+40.273568048: Deleted 0 transactions in the last second.
+2019-11-02 21:59:01.738425589 +0000 UTC m=+41.280296787: Deleted 0 transactions in the last second.
+2019-11-02 21:59:02.745270671 +0000 UTC m=+42.287141871: Deleted 0 transactions in the last second.
+2019-11-02 21:59:03.751926978 +0000 UTC m=+43.293798175: Deleted 0 transactions in the last second.
+2019-11-02 21:59:04.758654293 +0000 UTC m=+44.300525490: Deleted 0 transactions in the last second.
+2019-11-02 21:59:05.76537335 +0000 UTC m=+45.307244553: Deleted 0 transactions in the last second.
+2019-11-02 21:59:06.772039545 +0000 UTC m=+46.313910743: Deleted 0 transactions in the last second.
+2019-11-02 21:59:07.778723805 +0000 UTC m=+47.320595003: Deleted 0 transactions in the last second.
+2019-11-02 21:59:08.78538578 +0000 UTC m=+48.327256988: Deleted 0 transactions in the last second.
+2019-11-02 21:59:09.792058225 +0000 UTC m=+49.333929424: Deleted 0 transactions in the last second.
+2019-11-02 21:59:10.79881158 +0000 UTC m=+50.340682794: Deleted 0 transactions in the last second.
+2019-11-02 21:59:11.805494677 +0000 UTC m=+51.347365877: Deleted 0 transactions in the last second.
+2019-11-02 21:59:12.812242997 +0000 UTC m=+52.354114211: Deleted 0 transactions in the last second.
+2019-11-02 21:59:13.818996539 +0000 UTC m=+53.360867737: Deleted 0 transactions in the last second.
+2019-11-02 21:59:14.825791292 +0000 UTC m=+54.367662497: Deleted 0 transactions in the last second.
+2019-11-02 21:59:15.832542374 +0000 UTC m=+55.374413574: Deleted 0 transactions in the last second.
+2019-11-02 21:59:16.839255644 +0000 UTC m=+56.381126848: Deleted 0 transactions in the last second.
+2019-11-02 21:59:17.845937012 +0000 UTC m=+57.387808216: Deleted 0 transactions in the last second.
+2019-11-02 21:59:18.852620944 +0000 UTC m=+58.394492142: Deleted 0 transactions in the last second.
+2019-11-02 21:59:19.859280587 +0000 UTC m=+59.401151786: Deleted 0 transactions in the last second.
+2019-11-02 21:59:20.866037792 +0000 UTC m=+60.407908990: Deleted 0 transactions in the last second.
+2019-11-02 21:59:21.874283828 +0000 UTC m=+61.416155044: Deleted 0 transactions in the last second.
+2019-11-02 21:59:22.881044222 +0000 UTC m=+62.422915437: Deleted 0 transactions in the last second.
+2019-11-02 21:59:23.887687626 +0000 UTC m=+63.429558824: Deleted 0 transactions in the last second.
+2019-11-02 21:59:24.89437971 +0000 UTC m=+64.436250920: Deleted 0 transactions in the last second.
+2019-11-02 21:59:25.901032113 +0000 UTC m=+65.442903314: Deleted 0 transactions in the last second.
+2019-11-02 21:59:26.907710881 +0000 UTC m=+66.449582075: Deleted 0 transactions in the last second.
+2019-11-02 21:59:27.914422257 +0000 UTC m=+67.456293454: Deleted 0 transactions in the last second.
+2019-11-02 21:59:28.92109526 +0000 UTC m=+68.462966458: Deleted 0 transactions in the last second.
+2019-11-02 21:59:29.927746348 +0000 UTC m=+69.469617552: Deleted 0 transactions in the last second.
+2019-11-02 21:59:30.934486116 +0000 UTC m=+70.476357315: Deleted 0 transactions in the last second.
+2019-11-02 21:59:31.941214703 +0000 UTC m=+71.483085906: Deleted 0 transactions in the last second.
+2019-11-02 21:59:32.947999119 +0000 UTC m=+72.489870318: Deleted 0 transactions in the last second.
+2019-11-02 21:59:33.95470362 +0000 UTC m=+73.496574836: Deleted 0 transactions in the last second.
+2019-11-02 21:59:34.961397968 +0000 UTC m=+74.503269175: Deleted 0 transactions in the last second.
+2019-11-02 21:59:35.968128944 +0000 UTC m=+75.510000146: Deleted 0 transactions in the last second.
+2019-11-02 21:59:36.974841381 +0000 UTC m=+76.516712581: Deleted 0 transactions in the last second.
+2019-11-02 21:59:37.981529964 +0000 UTC m=+77.523401168: Deleted 0 transactions in the last second.
+2019-11-02 21:59:38.988265664 +0000 UTC m=+78.530136863: Deleted 0 transactions in the last second.
+2019-11-02 21:59:39.994919769 +0000 UTC m=+79.536790965: Deleted 0 transactions in the last second.
+2019-11-02 21:59:41.001716443 +0000 UTC m=+80.543587668: Deleted 0 transactions in the last second.
+2019-11-02 21:59:42.008349501 +0000 UTC m=+81.550220717: Deleted 0 transactions in the last second.
+2019-11-02 21:59:43.015029488 +0000 UTC m=+82.556900689: Deleted 0 transactions in the last second.
+2019-11-02 21:59:44.021711023 +0000 UTC m=+83.563582223: Deleted 0 transactions in the last second.
+2019-11-02 21:59:45.028450676 +0000 UTC m=+84.570321883: Deleted 0 transactions in the last second.
+2019-11-02 21:59:46.035101588 +0000 UTC m=+85.576972791: Deleted 0 transactions in the last second.
+2019-11-02 21:59:47.041805842 +0000 UTC m=+86.583677045: Deleted 0 transactions in the last second.
+Received 289 transactions to delete!
+One API call took 0.141135
+One API call took 0.161839
+2019-11-02 21:59:48.050808689 +0000 UTC m=+87.592679894: Deleted 289 transactions in the last second.
+Received 434 transactions to delete!
+One API call took 0.117113
+2019-11-02 21:59:49.060735612 +0000 UTC m=+88.602606815: Deleted 434 transactions in the last second.
+Received 570 transactions to delete!
+One API call took 0.037186
+One API call took 0.052412
+One API call took 0.146921
+2019-11-02 21:59:50.064997722 +0000 UTC m=+89.606868921: Deleted 570 transactions in the last second.
+Received 500 transactions to delete!
+One API call took 0.112412
+One API call took 0.112844
+One API call took 0.167225
+One API call took 0.011924
+One API call took 0.206476
+2019-11-02 21:59:51.065547213 +0000 UTC m=+90.607418424: Deleted 500 transactions in the last second.
+Received 520 transactions to delete!
+One API call took 0.115424
+One API call took 0.121929
+One API call took 0.034856
+2019-11-02 21:59:52.06774829 +0000 UTC m=+91.609619491: Deleted 520 transactions in the last second.
+Received 535 transactions to delete!
+One API call took 0.010317
+One API call took 0.036319
+One API call took 0.061177
+One API call took 0.112388
+One API call took 0.168120
+One API call took 0.268220
+2019-11-02 21:59:53.077238884 +0000 UTC m=+92.619110094: Deleted 535 transactions in the last second.
+Received 531 transactions to delete!
+One API call took 0.034474
+One API call took 0.036018
+One API call took 0.040992
+One API call took 0.125348
+2019-11-02 21:59:54.081135279 +0000 UTC m=+93.623006480: Deleted 531 transactions in the last second.
+Received 481 transactions to delete!
+One API call took 0.014147
+One API call took 0.071446
+One API call took 0.100123
+One API call took 0.009820
+One API call took 0.010110
+One API call took 0.113879
+2019-11-02 21:59:55.081501938 +0000 UTC m=+94.623373133: Deleted 481 transactions in the last second.
+Received 553 transactions to delete!
+One API call took 0.034662
+One API call took 0.035652
+One API call took 0.011388
+One API call took 0.011930
+One API call took 0.111203
+2019-11-02 21:59:56.085837971 +0000 UTC m=+95.627709189: Deleted 553 transactions in the last second.
+Received 456 transactions to delete!
+One API call took 0.008783
+One API call took 0.024508
+One API call took 0.031468
+One API call took 0.062958
+One API call took 0.113519
+One API call took 0.114129
+One API call took 0.112196
+One API call took 0.161413
+One API call took 0.183011
+2019-11-02 21:59:57.095595489 +0000 UTC m=+96.637466705: Deleted 456 transactions in the last second.
+Received 527 transactions to delete!
+One API call took 0.040741
+One API call took 0.165483
+One API call took 0.180847
+One API call took 0.207920
+2019-11-02 21:59:58.095815484 +0000 UTC m=+97.637686687: Deleted 527 transactions in the last second.
+Received 517 transactions to delete!
+One API call took 0.019130
+One API call took 0.034913
+One API call took 0.039958
+One API call took 0.038955
+2019-11-02 21:59:59.104630851 +0000 UTC m=+98.646502050: Deleted 517 transactions in the last second.
+Received 551 transactions to delete!
+One API call took 0.030705
+One API call took 0.049781
+One API call took 0.050650
+One API call took 0.046519
+One API call took 0.009938
+One API call took 0.009288
+One API call took 0.080416
+2019-11-02 22:00:00.110066764 +0000 UTC m=+99.651938051: Deleted 551 transactions in the last second.
+Received 459 transactions to delete!
+One API call took 0.010858
+One API call took 0.026129
+One API call took 0.046848
+One API call took 0.105392
+One API call took 0.111504
+2019-11-02 22:00:01.118389665 +0000 UTC m=+100.660260865: Deleted 459 transactions in the last second.
+Received 506 transactions to delete!
+One API call took 0.027308
+One API call took 0.130648
+One API call took 0.155530
+One API call took 0.192391
+2019-11-02 22:00:02.128236216 +0000 UTC m=+101.670107421: Deleted 506 transactions in the last second.
+Received 475 transactions to delete!
+One API call took 0.033393
+One API call took 0.038365
+One API call took 0.088611
+One API call took 0.141351
+One API call took 0.201857
+2019-11-02 22:00:03.128452169 +0000 UTC m=+102.670323379: Deleted 475 transactions in the last second.
+Received 498 transactions to delete!
+One API call took 0.028452
+One API call took 0.034230
+One API call took 0.042923
+One API call took 0.084150
+One API call took 0.013078
+One API call took 0.013382
+One API call took 0.010899
+One API call took 0.123941
+One API call took 0.013253
+One API call took 0.009748
+One API call took 0.010198
+One API call took 0.144274
+One API call took 0.153943
+2019-11-02 22:00:04.134811824 +0000 UTC m=+103.676683032: Deleted 498 transactions in the last second.
+Received 621 transactions to delete!
+One API call took 0.039616
+One API call took 0.045190
+One API call took 0.010934
+One API call took 0.118558
+One API call took 0.120710
+One API call took 0.128161
+One API call took 0.098441
+One API call took 0.050814
+2019-11-02 22:00:05.13986109 +0000 UTC m=+104.681732290: Deleted 621 transactions in the last second.
+Received 465 transactions to delete!
+One API call took 0.020352
+One API call took 0.020593
+One API call took 0.047405
+One API call took 0.114523
+One API call took 0.117719
+One API call took 0.010060
+One API call took 0.129563
+One API call took 0.118988
+2019-11-02 22:00:06.146230383 +0000 UTC m=+105.688101585: Deleted 465 transactions in the last second.
+Received 512 transactions to delete!
+One API call took 0.011407
+One API call took 0.031079
+One API call took 0.038389
+One API call took 0.035452
+One API call took 0.059055
+One API call took 0.009894
+One API call took 0.009960
+One API call took 0.143437
+One API call took 0.009683
+2019-11-02 22:00:07.149582478 +0000 UTC m=+106.691453672: Deleted 512 transactions in the last second.
+Received 528 transactions to delete!
+One API call took 0.143987
+2019-11-02 22:00:08.154154124 +0000 UTC m=+107.696025324: Deleted 528 transactions in the last second.
+Received 530 transactions to delete!
+One API call took 0.031376
+One API call took 0.123170
+One API call took 0.172566
+2019-11-02 22:00:09.158010375 +0000 UTC m=+108.699881584: Deleted 530 transactions in the last second.
+Received 462 transactions to delete!
+One API call took 0.026781
+One API call took 0.009877
+One API call took 0.106293
+One API call took 0.112885
+One API call took 0.010277
+One API call took 0.119950
+One API call took 0.009946
+One API call took 0.009868
+One API call took 0.162287
+One API call took 0.010009
+One API call took 0.010488
+2019-11-02 22:00:10.162048143 +0000 UTC m=+109.703919338: Deleted 462 transactions in the last second.
+Received 553 transactions to delete!
+One API call took 0.010800
+One API call took 0.115767
+One API call took 0.156928
+2019-11-02 22:00:11.171731499 +0000 UTC m=+110.713602693: Deleted 553 transactions in the last second.
+Received 495 transactions to delete!
+One API call took 0.029392
+One API call took 0.091464
+One API call took 0.095294
+One API call took 0.010906
+One API call took 0.117047
+One API call took 0.114340
+One API call took 0.014791
+One API call took 0.128437
+2019-11-02 22:00:12.174143889 +0000 UTC m=+111.716015088: Deleted 495 transactions in the last second.
+Received 572 transactions to delete!
+One API call took 0.038600
+One API call took 0.042539
+One API call took 0.042475
+One API call took 0.042809
+One API call took 0.044232
+One API call took 0.009872
+One API call took 0.010639
+One API call took 0.011774
+One API call took 0.115660
+One API call took 0.122591
+One API call took 0.009903
+One API call took 0.010303
+2019-11-02 22:00:13.175563953 +0000 UTC m=+112.717435155: Deleted 572 transactions in the last second.
+Received 532 transactions to delete!
+One API call took 0.085768
+One API call took 0.117132
+One API call took 0.159067
+One API call took 0.092658
+One API call took 0.010270
+2019-11-02 22:00:14.177021707 +0000 UTC m=+113.718892915: Deleted 532 transactions in the last second.
+Received 573 transactions to delete!
+One API call took 0.029857
+One API call took 0.041120
+One API call took 0.045662
+One API call took 0.047586
+One API call took 0.046856
+One API call took 0.051383
+2019-11-02 22:00:15.186304108 +0000 UTC m=+114.728175317: Deleted 573 transactions in the last second.
+Received 576 transactions to delete!
+One API call took 0.030902
+One API call took 0.032026
+One API call took 0.060747
+One API call took 0.158627
+One API call took 0.177154
+One API call took 0.179983
+One API call took 0.010280
+2019-11-02 22:00:16.189879755 +0000 UTC m=+115.731750964: Deleted 576 transactions in the last second.
+Received 536 transactions to delete!
+One API call took 0.038264
+One API call took 0.048911
+One API call took 0.053027
+One API call took 0.051319
+One API call took 0.026111
+One API call took 0.110318
+One API call took 0.113945
+2019-11-02 22:00:17.192983955 +0000 UTC m=+116.734855154: Deleted 536 transactions in the last second.
+Received 496 transactions to delete!
+One API call took 0.039727
+One API call took 0.119692
+One API call took 0.123263
+One API call took 0.085513
+One API call took 0.008372
+One API call took 0.146324
+One API call took 0.147585
+One API call took 0.026386
+One API call took 0.008296
+One API call took 0.010412
+One API call took 0.008321
+2019-11-02 22:00:18.201393706 +0000 UTC m=+117.743264920: Deleted 496 transactions in the last second.
+Received 542 transactions to delete!
+One API call took 0.014436
+One API call took 0.031755
+One API call took 0.041163
+One API call took 0.133722
+One API call took 0.008904
+One API call took 0.249850
+2019-11-02 22:00:19.203627267 +0000 UTC m=+118.745498476: Deleted 542 transactions in the last second.
+Received 427 transactions to delete!
+One API call took 0.026471
+One API call took 0.028243
+One API call took 0.009067
+One API call took 0.009860
+One API call took 0.098168
+One API call took 0.010953
+2019-11-02 22:00:20.21257626 +0000 UTC m=+119.754447473: Deleted 427 transactions in the last second.
+Received 560 transactions to delete!
+One API call took 0.031790
+One API call took 0.072950
+One API call took 0.037665
+One API call took 0.008473
+2019-11-02 22:00:21.215649453 +0000 UTC m=+120.757520650: Deleted 560 transactions in the last second.
+Received 510 transactions to delete!
+One API call took 0.021734
+One API call took 0.028071
+One API call took 0.036165
+One API call took 0.052033
+One API call took 0.010052
+One API call took 0.115609
+One API call took 0.119126
+One API call took 0.123766
+One API call took 0.017923
+One API call took 0.053671
+2019-11-02 22:00:22.221735742 +0000 UTC m=+121.763606943: Deleted 510 transactions in the last second.
+Received 581 transactions to delete!
+One API call took 0.028054
+One API call took 0.067374
+One API call took 0.049916
+One API call took 0.010233
+One API call took 0.093279
+One API call took 0.009768
+One API call took 0.009763
+One API call took 0.010096
+One API call took 0.009100
+One API call took 0.009053
+One API call took 0.126230
+2019-11-02 22:00:23.222266928 +0000 UTC m=+122.764138124: Deleted 581 transactions in the last second.
+Received 491 transactions to delete!
+One API call took 0.029671
+One API call took 0.094563
+One API call took 0.010363
+One API call took 0.148955
+2019-11-02 22:00:24.229420774 +0000 UTC m=+123.771291987: Deleted 491 transactions in the last second.
+Received 570 transactions to delete!
+One API call took 0.033036
+One API call took 0.031925
+One API call took 0.030953
+One API call took 0.031254
+One API call took 0.138185
+2019-11-02 22:00:25.231671192 +0000 UTC m=+124.773542395: Deleted 570 transactions in the last second.
+Received 596 transactions to delete!
+One API call took 0.021599
+One API call took 0.041874
+One API call took 0.039411
+One API call took 0.060680
+One API call took 0.010908
+One API call took 0.099827
+One API call took 0.125863
+One API call took 0.010387
+One API call took 0.009825
+One API call took 0.180105
+One API call took 0.036860
+2019-11-02 22:00:26.240466083 +0000 UTC m=+125.782337377: Deleted 596 transactions in the last second.
+Received 580 transactions to delete!
+One API call took 0.020906
+One API call took 0.033384
+One API call took 0.054607
+One API call took 0.042647
+One API call took 0.009200
+2019-11-02 22:00:27.241518296 +0000 UTC m=+126.783389496: Deleted 580 transactions in the last second.
+Received 450 transactions to delete!
+One API call took 0.036296
+One API call took 0.053301
+One API call took 0.100397
+One API call took 0.106715
+One API call took 0.078410
+One API call took 0.009926
+One API call took 0.009212
+2019-11-02 22:00:28.245253495 +0000 UTC m=+127.787124691: Deleted 450 transactions in the last second.
+Received 563 transactions to delete!
+One API call took 0.010137
+One API call took 0.040231
+One API call took 0.010659
+One API call took 0.050902
+One API call took 0.009717
+One API call took 0.010347
+One API call took 0.107350
+One API call took 0.067545
+One API call took 0.174507
+2019-11-02 22:00:29.249788525 +0000 UTC m=+128.791659721: Deleted 563 transactions in the last second.
+Received 582 transactions to delete!
+One API call took 0.010791
+One API call took 0.028168
+One API call took 0.033393
+One API call took 0.008731
+One API call took 0.048013
+One API call took 0.011881
+One API call took 0.110326
+One API call took 0.248082
+2019-11-02 22:00:30.251399087 +0000 UTC m=+129.793270282: Deleted 582 transactions in the last second.
+Received 551 transactions to delete!
+One API call took 0.063298
+One API call took 0.063843
+One API call took 0.065564
+One API call took 0.108951
+One API call took 0.123956
+One API call took 0.168013
+2019-11-02 22:00:31.255474261 +0000 UTC m=+130.797345456: Deleted 551 transactions in the last second.
+Received 397 transactions to delete!
+One API call took 0.032245
+One API call took 0.067867
+One API call took 0.010689
+2019-11-02 22:00:32.261937558 +0000 UTC m=+131.803808767: Deleted 397 transactions in the last second.
+Received 537 transactions to delete!
+One API call took 0.010144
+One API call took 0.052504
+One API call took 0.109127
+One API call took 0.105603
+One API call took 0.162409
+2019-11-02 22:00:33.269485143 +0000 UTC m=+132.811356344: Deleted 537 transactions in the last second.
+Received 520 transactions to delete!
+One API call took 0.021964
+One API call took 0.031727
+One API call took 0.032112
+One API call took 0.033730
+One API call took 0.039699
+One API call took 0.009631
+2019-11-02 22:00:34.271758544 +0000 UTC m=+133.813629744: Deleted 520 transactions in the last second.
+Received 458 transactions to delete!
+One API call took 0.085892
+One API call took 0.100381
+One API call took 0.011668
+One API call took 0.010907
+One API call took 0.146300
+One API call took 0.145909
+One API call took 0.008579
+One API call took 0.008174
+2019-11-02 22:00:35.278615181 +0000 UTC m=+134.820486378: Deleted 458 transactions in the last second.
+Received 525 transactions to delete!
+One API call took 0.117942
+One API call took 0.117307
+One API call took 0.119902
+One API call took 0.009917
+One API call took 0.009304
+One API call took 0.157151
+2019-11-02 22:00:36.280709756 +0000 UTC m=+135.822580958: Deleted 525 transactions in the last second.
+Received 465 transactions to delete!
+One API call took 0.029103
+One API call took 0.047597
+One API call took 0.047735
+One API call took 0.008613
+One API call took 0.015235
+2019-11-02 22:00:37.280807698 +0000 UTC m=+136.822678912: Deleted 465 transactions in the last second.
+Received 558 transactions to delete!
+One API call took 0.167373
+2019-11-02 22:00:38.284869374 +0000 UTC m=+137.826740578: Deleted 383 transactions in the last second.
+One API call took 0.301655
+One API call took 0.302195
+One API call took 0.304534
+One API call took 0.308270
+One API call took 0.309176
+One API call took 0.309468
+One API call took 0.008566
+One API call took 0.007935
+One API call took 0.009397
+One API call took 0.008838
+One API call took 0.009946
+One API call took 0.008251
+Received 461 transactions to delete!
+One API call took 0.097317
+One API call took 0.110086
+One API call took 0.116347
+One API call took 0.009232
+One API call took 0.035213
+One API call took 0.012458
+One API call took 0.009258
+One API call took 0.154691
+2019-11-02 22:00:39.294567809 +0000 UTC m=+138.836439008: Deleted 636 transactions in the last second.
+Received 534 transactions to delete!
+One API call took 0.060812
+One API call took 0.111642
+One API call took 0.115726
+One API call took 0.009725
+One API call took 0.170668
+2019-11-02 22:00:40.302232567 +0000 UTC m=+139.844103767: Deleted 534 transactions in the last second.
+Received 573 transactions to delete!
+One API call took 0.033093
+One API call took 0.040156
+One API call took 0.101238
+One API call took 0.009441
+One API call took 0.116742
+One API call took 0.119060
+One API call took 0.010362
+One API call took 0.014502
+One API call took 0.009427
+2019-11-02 22:00:41.304713217 +0000 UTC m=+140.846584420: Deleted 573 transactions in the last second.
+Received 596 transactions to delete!
+One API call took 0.009688
+One API call took 0.030404
+One API call took 0.037980
+One API call took 0.043315
+One API call took 0.108459
+One API call took 0.129057
+One API call took 0.155755
+2019-11-02 22:00:42.308132565 +0000 UTC m=+141.850003776: Deleted 596 transactions in the last second.
+Received 541 transactions to delete!
+One API call took 0.029538
+One API call took 0.036022
+One API call took 0.036546
+One API call took 0.036507
+One API call took 0.036253
+One API call took 0.008574
+2019-11-02 22:00:43.31671167 +0000 UTC m=+142.858582872: Deleted 541 transactions in the last second.
+Received 417 transactions to delete!
+One API call took 0.008800
+One API call took 0.026006
+One API call took 0.026173
+One API call took 0.031182
+One API call took 0.032604
+One API call took 0.028609
+One API call took 0.010953
+One API call took 0.006817
+One API call took 0.008828
+2019-11-02 22:00:44.325829229 +0000 UTC m=+143.867700429: Deleted 417 transactions in the last second.
+Received 534 transactions to delete!
+One API call took 0.029996
+One API call took 0.037830
+One API call took 0.037233
+One API call took 0.040211
+One API call took 0.042779
+One API call took 0.006320
+One API call took 0.009054
+One API call took 0.008929
+One API call took 0.009943
+2019-11-02 22:00:45.328529021 +0000 UTC m=+144.870400229: Deleted 534 transactions in the last second.
+Received 572 transactions to delete!
+One API call took 0.051677
+One API call took 0.056536
+One API call took 0.011893
+One API call took 0.104515
+One API call took 0.104974
+One API call took 0.108445
+One API call took 0.011174
+One API call took 0.009504
+One API call took 0.156624
+2019-11-02 22:00:46.329753986 +0000 UTC m=+145.871625186: Deleted 572 transactions in the last second.
+Received 414 transactions to delete!
+One API call took 0.029788
+One API call took 0.034791
+One API call took 0.134060
+One API call took 0.009910
+One API call took 0.155371
+One API call took 0.010963
+2019-11-02 22:00:47.330039974 +0000 UTC m=+146.871911176: Deleted 389 transactions in the last second.
+One API call took 0.098103
+One API call took 0.009823
+Received 575 transactions to delete!
+One API call took 0.112250
+One API call took 0.171098
+2019-11-02 22:00:48.334197257 +0000 UTC m=+147.876068458: Deleted 550 transactions in the last second.
+One API call took 0.311723
+One API call took 0.306296
+Received 498 transactions to delete!
+One API call took 0.106213
+One API call took 0.009382
+One API call took 0.009452
+One API call took 0.124473
+2019-11-02 22:00:49.335521572 +0000 UTC m=+148.877392778: Deleted 548 transactions in the last second.
+Received 504 transactions to delete!
+One API call took 0.027081
+One API call took 0.153771
+One API call took 0.142792
+One API call took 0.168154
+One API call took 0.009888
+One API call took 0.010860
+2019-11-02 22:00:50.344410072 +0000 UTC m=+149.886281266: Deleted 504 transactions in the last second.
+Received 595 transactions to delete!
+One API call took 0.036907
+One API call took 0.108972
+One API call took 0.115794
+One API call took 0.122905
+One API call took 0.014773
+One API call took 0.124696
+One API call took 0.125652
+One API call took 0.009697
+One API call took 0.009523
+One API call took 0.010182
+One API call took 0.008836
+2019-11-02 22:00:51.35151122 +0000 UTC m=+150.893382420: Deleted 595 transactions in the last second.
+Received 467 transactions to delete!
+One API call took 0.026543
+One API call took 0.027953
+One API call took 0.027199
+One API call took 0.025900
+One API call took 0.083923
+One API call took 0.101430
+One API call took 0.009681
+One API call took 0.011857
+One API call took 0.160716
+2019-11-02 22:00:52.360598606 +0000 UTC m=+151.902469803: Deleted 467 transactions in the last second.
+Received 610 transactions to delete!
+One API call took 0.110192
+One API call took 0.113338
+One API call took 0.014086
+One API call took 0.121553
+One API call took 0.009692
+One API call took 0.154145
+One API call took 0.170175
+One API call took 0.009406
+One API call took 0.007758
+2019-11-02 22:00:53.368949147 +0000 UTC m=+152.910820344: Deleted 610 transactions in the last second.
+Received 602 transactions to delete!
+One API call took 0.123384
+One API call took 0.145238
+One API call took 0.011345
+One API call took 0.196177
+2019-11-02 22:00:54.375968849 +0000 UTC m=+153.917840043: Deleted 552 transactions in the last second.
+Received 546 transactions to delete!
+One API call took 0.035091
+One API call took 0.029368
+One API call took 0.010068
+One API call took 0.010289
+2019-11-02 22:00:55.385915512 +0000 UTC m=+154.927786796: Deleted 596 transactions in the last second.
+Received 522 transactions to delete!
+One API call took 0.105843
+One API call took 0.107704
+One API call took 0.010051
+One API call took 0.115864
+One API call took 0.010475
+One API call took 0.009967
+2019-11-02 22:00:56.389478175 +0000 UTC m=+155.931349390: Deleted 522 transactions in the last second.
+Received 580 transactions to delete!
+One API call took 0.032905
+One API call took 0.052346
+One API call took 0.062258
+One API call took 0.063851
+One API call took 0.010667
+One API call took 0.117634
+One API call took 0.010631
+2019-11-02 22:00:57.39319447 +0000 UTC m=+156.935065684: Deleted 580 transactions in the last second.
+Received 469 transactions to delete!
+One API call took 0.018101
+One API call took 0.106614
+One API call took 0.108962
+One API call took 0.109786
+One API call took 0.011034
+One API call took 0.011171
+One API call took 0.124059
+One API call took 0.010224
+One API call took 0.008929
+One API call took 0.136315
+One API call took 0.151220
+One API call took 0.010362
+One API call took 0.042059
+One API call took 0.010750
+2019-11-02 22:00:58.397242967 +0000 UTC m=+157.939114172: Deleted 469 transactions in the last second.
+Received 337 transactions to delete!
+One API call took 0.013697
+One API call took 0.026525
+One API call took 0.028068
+One API call took 0.029590
+One API call took 0.027064
+One API call took 0.009811
+One API call took 0.009824
+One API call took 0.104317
+One API call took 0.135102
+2019-11-02 22:00:59.406783026 +0000 UTC m=+158.948654224: Deleted 337 transactions in the last second.
+Received 240 transactions to delete!
+One API call took 0.022038
+One API call took 0.023814
+One API call took 0.108455
+One API call took 0.134998
+2019-11-02 22:01:00.40736837 +0000 UTC m=+159.949239570: Deleted 240 transactions in the last second.
+Received 95 transactions to delete!
+2019-11-02 22:01:01.409648657 +0000 UTC m=+160.951519862: Deleted 95 transactions in the last second.
+Received 38 transactions to delete!
+One API call took 0.009758
+One API call took 0.010366
+2019-11-02 22:01:02.410615324 +0000 UTC m=+161.952486524: Deleted 38 transactions in the last second.
+Received 13 transactions to delete!
+2019-11-02 22:01:03.410815187 +0000 UTC m=+162.952686389: Deleted 13 transactions in the last second.
+2019-11-02 22:01:04.417447318 +0000 UTC m=+163.959318517: Deleted 0 transactions in the last second.
+2019-11-02 22:01:05.424159714 +0000 UTC m=+164.966030916: Deleted 0 transactions in the last second.
+2019-11-02 22:01:06.43083314 +0000 UTC m=+165.972704340: Deleted 0 transactions in the last second.
+2019-11-02 22:01:07.437432307 +0000 UTC m=+166.979303509: Deleted 0 transactions in the last second.
+2019-11-02 22:01:08.444179687 +0000 UTC m=+167.986050893: Deleted 0 transactions in the last second.
+2019-11-02 22:01:09.450826231 +0000 UTC m=+168.992697431: Deleted 0 transactions in the last second.
+2019-11-02 22:01:10.457444584 +0000 UTC m=+169.999315785: Deleted 0 transactions in the last second.
+2019-11-02 22:01:11.46416907 +0000 UTC m=+171.006040269: Deleted 0 transactions in the last second.
+2019-11-02 22:01:12.470826399 +0000 UTC m=+172.012697597: Deleted 0 transactions in the last second.
+2019-11-02 22:01:13.477578004 +0000 UTC m=+173.019449202: Deleted 0 transactions in the last second.
+2019-11-02 22:01:14.484272304 +0000 UTC m=+174.026143512: Deleted 0 transactions in the last second.
+2019-11-02 22:01:15.490922697 +0000 UTC m=+175.032793893: Deleted 0 transactions in the last second.
+2019-11-02 22:01:16.497578492 +0000 UTC m=+176.039449690: Deleted 0 transactions in the last second.
+2019-11-02 22:01:17.504230678 +0000 UTC m=+177.046101879: Deleted 0 transactions in the last second.
+2019-11-02 22:01:18.511083879 +0000 UTC m=+178.052955090: Deleted 0 transactions in the last second.
+2019-11-02 22:01:19.517757571 +0000 UTC m=+179.059628766: Deleted 0 transactions in the last second.
+2019-11-02 22:01:20.524444849 +0000 UTC m=+180.066316063: Deleted 0 transactions in the last second.
+2019-11-02 22:01:21.53158155 +0000 UTC m=+181.073452746: Deleted 0 transactions in the last second.
+2019-11-02 22:01:22.538314397 +0000 UTC m=+182.080185591: Deleted 0 transactions in the last second.
+2019-11-02 22:01:23.545111296 +0000 UTC m=+183.086982492: Deleted 0 transactions in the last second.
+2019-11-02 22:01:24.551788704 +0000 UTC m=+184.093659899: Deleted 0 transactions in the last second.
+2019-11-02 22:01:25.558494485 +0000 UTC m=+185.100365680: Deleted 0 transactions in the last second.
+2019-11-02 22:01:26.565153407 +0000 UTC m=+186.107024609: Deleted 0 transactions in the last second.
+2019-11-02 22:01:27.571836634 +0000 UTC m=+187.113707833: Deleted 0 transactions in the last second.
+2019-11-02 22:01:28.57851989 +0000 UTC m=+188.120391092: Deleted 0 transactions in the last second.
+2019-11-02 22:01:29.585190433 +0000 UTC m=+189.127061645: Deleted 0 transactions in the last second.
+2019-11-02 22:01:30.591851006 +0000 UTC m=+190.133722209: Deleted 0 transactions in the last second.
+2019-11-02 22:01:31.598512956 +0000 UTC m=+191.140384152: Deleted 0 transactions in the last second.
+2019-11-02 22:01:32.605225037 +0000 UTC m=+192.147096244: Deleted 0 transactions in the last second.
+2019-11-02 22:01:33.611880166 +0000 UTC m=+193.153751363: Deleted 0 transactions in the last second.
+2019-11-02 22:01:34.618513482 +0000 UTC m=+194.160384685: Deleted 0 transactions in the last second.
+2019-11-02 22:01:35.625220366 +0000 UTC m=+195.167091565: Deleted 0 transactions in the last second.
+2019-11-02 22:01:36.631875177 +0000 UTC m=+196.173746380: Deleted 0 transactions in the last second.
+2019-11-02 22:01:37.638576323 +0000 UTC m=+197.180447525: Deleted 0 transactions in the last second.
+2019-11-02 22:01:38.645336815 +0000 UTC m=+198.187208025: Deleted 0 transactions in the last second.
+2019-11-02 22:01:39.652026374 +0000 UTC m=+199.193897580: Deleted 0 transactions in the last second.
+2019-11-02 22:01:40.658727492 +0000 UTC m=+200.200598691: Deleted 0 transactions in the last second.
+2019-11-02 22:01:41.665409858 +0000 UTC m=+201.207281063: Deleted 0 transactions in the last second.
+2019-11-02 22:01:42.672081477 +0000 UTC m=+202.213952679: Deleted 0 transactions in the last second.
+2019-11-02 22:01:43.678780627 +0000 UTC m=+203.220651822: Deleted 0 transactions in the last second.
+2019-11-02 22:01:44.685409726 +0000 UTC m=+204.227281014: Deleted 0 transactions in the last second.
+2019-11-02 22:01:45.692142784 +0000 UTC m=+205.234013986: Deleted 0 transactions in the last second.
+2019-11-02 22:01:46.69905642 +0000 UTC m=+206.240927621: Deleted 0 transactions in the last second.
+2019-11-02 22:01:47.705789253 +0000 UTC m=+207.247660458: Deleted 0 transactions in the last second.
+2019-11-02 22:01:48.712530148 +0000 UTC m=+208.254401342: Deleted 0 transactions in the last second.
+2019-11-02 22:01:49.719183982 +0000 UTC m=+209.261055187: Deleted 0 transactions in the last second.
+2019-11-02 22:01:50.72587326 +0000 UTC m=+210.267744470: Deleted 0 transactions in the last second.
+2019-11-02 22:01:51.732529177 +0000 UTC m=+211.274400374: Deleted 0 transactions in the last second.
+2019-11-02 22:01:52.739271061 +0000 UTC m=+212.281142264: Deleted 0 transactions in the last second.
+2019-11-02 22:01:53.745998438 +0000 UTC m=+213.287869633: Deleted 0 transactions in the last second.
+2019-11-02 22:01:54.75268734 +0000 UTC m=+214.294558537: Deleted 0 transactions in the last second.
+2019-11-02 22:01:55.759382764 +0000 UTC m=+215.301253962: Deleted 0 transactions in the last second.
+2019-11-02 22:01:56.76617381 +0000 UTC m=+216.308045006: Deleted 0 transactions in the last second.
+2019-11-02 22:01:57.772946776 +0000 UTC m=+217.314817977: Deleted 0 transactions in the last second.
+2019-11-02 22:01:58.779609364 +0000 UTC m=+218.321480563: Deleted 0 transactions in the last second.
+2019-11-02 22:01:59.786294898 +0000 UTC m=+219.328166098: Deleted 0 transactions in the last second.
+2019-11-02 22:02:00.792949643 +0000 UTC m=+220.334820860: Deleted 0 transactions in the last second.
+2019-11-02 22:02:01.799630769 +0000 UTC m=+221.341501971: Deleted 0 transactions in the last second.
+2019-11-02 22:02:02.806461221 +0000 UTC m=+222.348332420: Deleted 0 transactions in the last second.
+2019-11-02 22:02:03.813105268 +0000 UTC m=+223.354976466: Deleted 0 transactions in the last second.
+2019-11-02 22:02:04.819789484 +0000 UTC m=+224.361660691: Deleted 0 transactions in the last second.
+2019-11-02 22:02:05.826504264 +0000 UTC m=+225.368375465: Deleted 0 transactions in the last second.
+2019-11-02 22:02:06.833162175 +0000 UTC m=+226.375033375: Deleted 0 transactions in the last second.
+2019-11-02 22:02:07.839793822 +0000 UTC m=+227.381665034: Deleted 0 transactions in the last second.
+2019-11-02 22:02:08.846489918 +0000 UTC m=+228.388361122: Deleted 0 transactions in the last second.
+2019-11-02 22:02:09.853114831 +0000 UTC m=+229.394986030: Deleted 0 transactions in the last second.
+2019-11-02 22:02:10.859798424 +0000 UTC m=+230.401669622: Deleted 0 transactions in the last second.
+2019-11-02 22:02:11.866450617 +0000 UTC m=+231.408321815: Deleted 0 transactions in the last second.
+2019-11-02 22:02:12.873106746 +0000 UTC m=+232.414977943: Deleted 0 transactions in the last second.
+2019-11-02 22:02:13.879781389 +0000 UTC m=+233.421652595: Deleted 0 transactions in the last second.
+2019-11-02 22:02:14.886483218 +0000 UTC m=+234.428354420: Deleted 0 transactions in the last second.
+2019-11-02 22:02:15.893172399 +0000 UTC m=+235.435043595: Deleted 0 transactions in the last second.
+2019-11-02 22:02:16.899801588 +0000 UTC m=+236.441672786: Deleted 0 transactions in the last second.
+2019-11-02 22:02:17.90642909 +0000 UTC m=+237.448300296: Deleted 0 transactions in the last second.
+2019-11-02 22:02:18.913192754 +0000 UTC m=+238.455063953: Deleted 0 transactions in the last second.
+2019-11-02 22:02:19.919885691 +0000 UTC m=+239.461756891: Deleted 0 transactions in the last second.
+2019-11-02 22:02:20.926600528 +0000 UTC m=+240.468471724: Deleted 0 transactions in the last second.
+2019-11-02 22:02:21.934355713 +0000 UTC m=+241.476226915: Deleted 0 transactions in the last second.
+2019-11-02 22:02:22.941035098 +0000 UTC m=+242.482906304: Deleted 0 transactions in the last second.
+2019-11-02 22:02:23.947728292 +0000 UTC m=+243.489599498: Deleted 0 transactions in the last second.
+2019-11-02 22:02:24.954395733 +0000 UTC m=+244.496266931: Deleted 0 transactions in the last second.
+2019-11-02 22:02:25.961092848 +0000 UTC m=+245.502964045: Deleted 0 transactions in the last second.
+2019-11-02 22:02:26.967777387 +0000 UTC m=+246.509648587: Deleted 0 transactions in the last second.
+2019-11-02 22:02:27.97449839 +0000 UTC m=+247.516369597: Deleted 0 transactions in the last second.
+2019-11-02 22:02:28.981135128 +0000 UTC m=+248.523006326: Deleted 0 transactions in the last second.
+2019-11-02 22:02:29.987740204 +0000 UTC m=+249.529611405: Deleted 0 transactions in the last second.
+2019-11-02 22:02:30.994432112 +0000 UTC m=+250.536303312: Deleted 0 transactions in the last second.
+2019-11-02 22:02:32.00104336 +0000 UTC m=+251.542914555: Deleted 0 transactions in the last second.
+2019-11-02 22:02:33.007778006 +0000 UTC m=+252.549649209: Deleted 0 transactions in the last second.
+2019-11-02 22:02:34.014372342 +0000 UTC m=+253.556243542: Deleted 0 transactions in the last second.
+2019-11-02 22:02:35.021100612 +0000 UTC m=+254.562971823: Deleted 0 transactions in the last second.
+2019-11-02 22:02:36.02778395 +0000 UTC m=+255.569655152: Deleted 0 transactions in the last second.
+2019-11-02 22:02:37.034466385 +0000 UTC m=+256.576337594: Deleted 0 transactions in the last second.
+2019-11-02 22:02:38.041071148 +0000 UTC m=+257.582942355: Deleted 0 transactions in the last second.
+2019-11-02 22:02:39.047853229 +0000 UTC m=+258.589724424: Deleted 0 transactions in the last second.
+2019-11-02 22:02:40.054534779 +0000 UTC m=+259.596405978: Deleted 0 transactions in the last second.
+2019-11-02 22:02:41.061218605 +0000 UTC m=+260.603089808: Deleted 0 transactions in the last second.
+2019-11-02 22:02:42.067968467 +0000 UTC m=+261.609839675: Deleted 0 transactions in the last second.
+2019-11-02 22:02:43.074657032 +0000 UTC m=+262.616528231: Deleted 0 transactions in the last second.
+2019-11-02 22:02:44.081347013 +0000 UTC m=+263.623218217: Deleted 0 transactions in the last second.
+2019-11-02 22:02:45.088061801 +0000 UTC m=+264.629933012: Deleted 0 transactions in the last second.
+2019-11-02 22:02:46.094707178 +0000 UTC m=+265.636578375: Deleted 0 transactions in the last second.
+2019-11-02 22:02:47.101366825 +0000 UTC m=+266.643238031: Deleted 0 transactions in the last second.
+2019-11-02 22:02:48.108120602 +0000 UTC m=+267.649991826: Deleted 0 transactions in the last second.
+2019-11-02 22:02:49.114841009 +0000 UTC m=+268.656712210: Deleted 0 transactions in the last second.
+2019-11-02 22:02:50.121595947 +0000 UTC m=+269.663467146: Deleted 0 transactions in the last second.
+2019-11-02 22:02:51.128259748 +0000 UTC m=+270.670130960: Deleted 0 transactions in the last second.
+2019-11-02 22:02:52.134927082 +0000 UTC m=+271.676798294: Deleted 0 transactions in the last second.
+2019-11-02 22:02:53.14167387 +0000 UTC m=+272.683545071: Deleted 0 transactions in the last second.
+2019-11-02 22:02:54.148372525 +0000 UTC m=+273.690243735: Deleted 0 transactions in the last second.
+2019-11-02 22:02:55.155085703 +0000 UTC m=+274.696956905: Deleted 0 transactions in the last second.
+2019-11-02 22:02:56.161847837 +0000 UTC m=+275.703719037: Deleted 0 transactions in the last second.
+2019-11-02 22:02:57.168578507 +0000 UTC m=+276.710449711: Deleted 0 transactions in the last second.
+2019-11-02 22:02:58.17524518 +0000 UTC m=+277.717116378: Deleted 0 transactions in the last second.
+2019-11-02 22:02:59.181913847 +0000 UTC m=+278.723785045: Deleted 0 transactions in the last second.
+2019-11-02 22:03:00.188547951 +0000 UTC m=+279.730419152: Deleted 0 transactions in the last second.
+2019-11-02 22:03:01.195259993 +0000 UTC m=+280.737131193: Deleted 0 transactions in the last second.
+2019-11-02 22:03:02.202030714 +0000 UTC m=+281.743901916: Deleted 0 transactions in the last second.
+2019-11-02 22:03:03.208819858 +0000 UTC m=+282.750691057: Deleted 0 transactions in the last second.
+2019-11-02 22:03:04.215416019 +0000 UTC m=+283.757287217: Deleted 0 transactions in the last second.
+2019-11-02 22:03:05.222063416 +0000 UTC m=+284.763934625: Deleted 0 transactions in the last second.
+2019-11-02 22:03:06.22876831 +0000 UTC m=+285.770639514: Deleted 0 transactions in the last second.
+2019-11-02 22:03:07.23540842 +0000 UTC m=+286.777279620: Deleted 0 transactions in the last second.
+2019-11-02 22:03:08.242166742 +0000 UTC m=+287.784037943: Deleted 0 transactions in the last second.
+2019-11-02 22:03:09.248762624 +0000 UTC m=+288.790633824: Deleted 0 transactions in the last second.
+2019-11-02 22:03:10.255436155 +0000 UTC m=+289.797307353: Deleted 0 transactions in the last second.
+2019-11-02 22:03:11.262138267 +0000 UTC m=+290.804009465: Deleted 0 transactions in the last second.
+2019-11-02 22:03:12.268803917 +0000 UTC m=+291.810675111: Deleted 0 transactions in the last second.
+2019-11-02 22:03:13.275565446 +0000 UTC m=+292.817436644: Deleted 0 transactions in the last second.
+2019-11-02 22:03:14.282262673 +0000 UTC m=+293.824133875: Deleted 0 transactions in the last second.
+2019-11-02 22:03:15.288932839 +0000 UTC m=+294.830804053: Deleted 0 transactions in the last second.
+2019-11-02 22:03:16.295623171 +0000 UTC m=+295.837494375: Deleted 0 transactions in the last second.
+2019-11-02 22:03:17.302331772 +0000 UTC m=+296.844202972: Deleted 0 transactions in the last second.
+2019-11-02 22:03:18.309041004 +0000 UTC m=+297.850912204: Deleted 0 transactions in the last second.
+2019-11-02 22:03:19.315786446 +0000 UTC m=+298.857657645: Deleted 0 transactions in the last second.
+2019-11-02 22:03:20.322479758 +0000 UTC m=+299.864350958: Deleted 0 transactions in the last second.
+2019-11-02 22:03:21.330572874 +0000 UTC m=+300.872444069: Deleted 0 transactions in the last second.
+2019-11-02 22:03:22.337258051 +0000 UTC m=+301.879129261: Deleted 0 transactions in the last second.
+2019-11-02 22:03:23.343909078 +0000 UTC m=+302.885780289: Deleted 0 transactions in the last second.
+2019-11-02 22:03:24.350586157 +0000 UTC m=+303.892457359: Deleted 0 transactions in the last second.
+2019-11-02 22:03:25.357244552 +0000 UTC m=+304.899115754: Deleted 0 transactions in the last second.
+2019-11-02 22:03:26.363941307 +0000 UTC m=+305.905812503: Deleted 0 transactions in the last second.
+2019-11-02 22:03:27.370689858 +0000 UTC m=+306.912561062: Deleted 0 transactions in the last second.
+2019-11-02 22:03:28.37739167 +0000 UTC m=+307.919262968: Deleted 0 transactions in the last second.
+2019-11-02 22:03:29.384104834 +0000 UTC m=+308.925976035: Deleted 0 transactions in the last second.
+2019-11-02 22:03:30.390803853 +0000 UTC m=+309.932675056: Deleted 0 transactions in the last second.
+2019-11-02 22:03:31.397515244 +0000 UTC m=+310.939386445: Deleted 0 transactions in the last second.
+2019-11-02 22:03:32.40422551 +0000 UTC m=+311.946096708: Deleted 0 transactions in the last second.
+2019-11-02 22:03:33.41085137 +0000 UTC m=+312.952722568: Deleted 0 transactions in the last second.
+2019-11-02 22:03:34.417505063 +0000 UTC m=+313.959376260: Deleted 0 transactions in the last second.
+2019-11-02 22:03:35.424129174 +0000 UTC m=+314.966000375: Deleted 0 transactions in the last second.
+2019-11-02 22:03:36.430762783 +0000 UTC m=+315.972633983: Deleted 0 transactions in the last second.
+2019-11-02 22:03:37.437433438 +0000 UTC m=+316.979304640: Deleted 0 transactions in the last second.
+2019-11-02 22:03:38.444040616 +0000 UTC m=+317.985911815: Deleted 0 transactions in the last second.
+2019-11-02 22:03:39.45074148 +0000 UTC m=+318.992612681: Deleted 0 transactions in the last second.
+2019-11-02 22:03:40.457411359 +0000 UTC m=+319.999282557: Deleted 0 transactions in the last second.
+2019-11-02 22:03:41.464335393 +0000 UTC m=+321.006206593: Deleted 0 transactions in the last second.
+2019-11-02 22:03:42.470995586 +0000 UTC m=+322.012866785: Deleted 0 transactions in the last second.
+2019-11-02 22:03:43.477654338 +0000 UTC m=+323.019525538: Deleted 0 transactions in the last second.
+2019-11-02 22:03:44.484328468 +0000 UTC m=+324.026199667: Deleted 0 transactions in the last second.
+2019-11-02 22:03:45.491026687 +0000 UTC m=+325.032897896: Deleted 0 transactions in the last second.
+2019-11-02 22:03:46.497698119 +0000 UTC m=+326.039569336: Deleted 0 transactions in the last second.
+2019-11-02 22:03:47.504346608 +0000 UTC m=+327.046217803: Deleted 0 transactions in the last second.
+2019-11-02 22:03:48.511035049 +0000 UTC m=+328.052906247: Deleted 0 transactions in the last second.
+2019-11-02 22:03:49.517882197 +0000 UTC m=+329.059753397: Deleted 0 transactions in the last second.
+2019-11-02 22:03:50.524591358 +0000 UTC m=+330.066462559: Deleted 0 transactions in the last second.

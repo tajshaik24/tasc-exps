@@ -1,0 +1,12 @@
+Found 1 servers:
+	-54.90.189.47
+Starting benchmark at 2020-02-28 22:43:13.833779
+Starting benchmark type aft with 5000 requests across 5 threads...
+Errors: [{"errorMessage":"2020-02-28T22:43:37.969Z c8d050b8-49a9-4642-8ced-069bb0ed3eb7 Task timed out after 1.00 seconds"}]
+Number of errors: 1
+Median latency: 0.042203
+5th percentile/95th percentile: 0.033248, 0.059856
+1st percentile/99th percentile: 0.031113, 0.094111
+Total throughput: 111.910040
+
+Finished!

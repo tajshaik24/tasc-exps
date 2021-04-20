@@ -1,0 +1,59 @@
+Found 7 servers:
+	-18.212.236.85
+	-54.147.128.4
+	-54.227.188.186
+	-3.90.243.169
+	-3.89.163.100
+	-54.175.114.217
+	-34.230.76.55
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.077247
+5th percentile/95th percentile: 0.044888, 0.161011
+1st percentile/99th percentile: 0.041139, 0.220060
+Total throughput: 56.636746
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.074938
+5th percentile/95th percentile: 0.044863, 0.167693
+1st percentile/99th percentile: 0.041162, 0.218368
+Total throughput: 57.669174
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.075043
+5th percentile/95th percentile: 0.044411, 0.165323
+1st percentile/99th percentile: 0.040806, 0.213220
+Total throughput: 58.039966
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.076928
+5th percentile/95th percentile: 0.045736, 0.166661
+1st percentile/99th percentile: 0.041951, 0.229511
+Total throughput: 56.121523
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.078020
+5th percentile/95th percentile: 0.045964, 0.165097
+1st percentile/99th percentile: 0.042339, 0.212831
+Total throughput: 56.403527
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Errors: [{"errorMessage": "<_Rendezvous of RPC that terminated with:\n\tstatus = StatusCode.UNAVAILABLE\n\tdetails = \"failed to connect to all addresses\"\n\tdebug_error_string = \"{\"created\":\"@1571935900.049980488\",\"description\":\"Failed to pick subchannel\",\"file\":\"src/core/ext/filters/client_channel/client_channel.cc\",\"file_line\":3876,\"referenced_errors\":[{\"created\":\"@1571935900.049976453\",\"description\":\"failed to connect to all addresses\",\"file\":\"src/core/ext/filters/client_channel/lb_policy/pick_first/pick_first.cc\",\"file_line\":395,\"grpc_status\":14}]}\"\n>", "errorType": "_Rendezvous", "stackTrace": ["  File \"/var/task/distributed_handler.py\", line 36, in handler\n    txn = client.StartTransaction(empty_pb2.Empty())\n", "  File \"/var/task/grpc/_channel.py\", line 604, in __call__\n    return _end_unary_response_blocking(state, call, False, None)\n", "  File \"/var/task/grpc/_channel.py\", line 506, in _end_unary_response_blocking\n    raise _Rendezvous(state, None, None, deadline)\n"]}]
+Number of errors: 1
+Median latency: 0.075825
+5th percentile/95th percentile: 0.045877, 0.162468
+1st percentile/99th percentile: 0.042538, 0.218285
+Total throughput: 54.907562
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.077019
+5th percentile/95th percentile: 0.045216, 0.163420
+1st percentile/99th percentile: 0.041205, 0.224794
+Total throughput: 56.957153
+
+Finished!

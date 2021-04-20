@@ -1,0 +1,26 @@
+Starting benchmark with 10000 requests across 10 threads...
+Write-read inconsistencies:  786
+Read-read inconsistencies:  371
+Write-read inconsistencies:  772
+Read-read inconsistencies:  390
+Write-read inconsistencies:  794
+Read-read inconsistencies:  352
+Write-read inconsistencies:  761
+Read-read inconsistencies:  394
+Write-read inconsistencies:  761
+Read-read inconsistencies:  395
+Write-read inconsistencies:  744
+Read-read inconsistencies:  381
+Write-read inconsistencies:  803
+Read-read inconsistencies:  379
+Write-read inconsistencies:  818
+Read-read inconsistencies:  328
+Write-read inconsistencies:  729
+Read-read inconsistencies:  385
+Write-read inconsistencies:  751
+Read-read inconsistencies:  362
+Number of errors: 0
+Median latency: 0.106946
+5th percentile/95th percentile: 0.062986, 0.560049
+1st percentile/99th percentile: 0.059792, 1.817107
+Total throughput: 45.874819

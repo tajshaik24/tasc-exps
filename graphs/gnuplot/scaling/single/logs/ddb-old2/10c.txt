@@ -1,0 +1,19 @@
+Found 2 servers:
+	-35.175.196.20
+	-3.88.107.41
+Starting benchmark type aft with 5000 requests across 5 threads...
+Number of errors: 0
+Median latency: 0.067964
+5th percentile/95th percentile: 0.055703, 0.101809
+1st percentile/99th percentile: 0.051949, 0.145500
+Total throughput: 64.321328
+
+Starting benchmark type aft with 5000 requests across 5 threads...
+Errors: [{"errorMessage":"2019-10-23T20:53:40.664Z f899f09d-faa0-481b-84fb-eae08f07ef90 Task timed out after 60.02 seconds"}]
+Number of errors: 1
+Median latency: 0.067316
+5th percentile/95th percentile: 0.055363, 0.101375
+1st percentile/99th percentile: 0.052002, 0.140295
+Total throughput: 59.057231
+
+Finished!
