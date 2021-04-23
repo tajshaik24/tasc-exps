@@ -1,7 +1,7 @@
-import json
 import os
 import random
 import time
+from warnings import resetwarnings
 
 import boto3
 import grpc
@@ -39,6 +39,7 @@ def lambda_handler(event, context):
 
     with grpc.insecure_channel(address + ':9000') as channel:
         client = TascStub(channel)
+
         start_time = time.time()
         txn = client.StartTransaction(empty_pb2.Empty())
         end_start_txn = time.time() - start_time
@@ -46,11 +47,14 @@ def lambda_handler(event, context):
 
         keys = []
         key_str = []
+        value_str = []
 
         for _ in range(num_writes):
             key = str(bounded_zipf.rvs(size=1)[0])
+            value = os.urandom(4096)
             key_str.append(key)
-            keys.append(KeyPair(key=key, value=os.urandom(4096)))
+            value_str.append(value)
+            keys.append(KeyPair(key=key, value=value))
 
         update = TascRequest(tid=txn_id_str, pairs=keys)
         
@@ -58,13 +62,26 @@ def lambda_handler(event, context):
         client.Write(update)
         end_write = time.time() - start_write
 
-        start_read = time.time()
-        client.Read(update)
-        end_read = time.time() - start_read
-
         start_commit = time.time()
         client.CommitTransaction(txn)
         end_commit =  time.time() - start_commit
+
+        start_txn = client.StartTransaction(empty_pb2.Empty())
+
+        start_read = time.time()
+        for i in range(num_reads):
+            key_str = key_str[i]
+            value_str = value_str[i]
+            read_keys = []
+            read_keys.append(KeyPair(key=key_str))
+            read = TascRequest(tid=start_txn.tid, pairs=read_keys)
+            while True:
+                values = client.Read(read)
+                rv_keys = values.pairs
+                read_value = rv_keys[0].value
+                if(read_value == value_str):
+                    break
+        end_read = time.time() - start_read
          
         latency = (time.time() - start_time)
 
