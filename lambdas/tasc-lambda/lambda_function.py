@@ -51,16 +51,27 @@ def lambda_handler(event, context):
             key = str(bounded_zipf.rvs(size=1)[0])
             key_str.append(key)
             keys.append(KeyPair(key=key, value=os.urandom(4096)))
+        
+        read_keys = []
+        for i in range(num_reads):
+            read_keys.append(KeyPair(key=key_str[i]))
 
         update = TascRequest(tid=txn_id_str, pairs=keys)
-        
-        start_write = time.time()
-        client.Write(update)
-        end_write = time.time() - start_write
 
-        start_read = time.time()
-        client.Read(update)
-        end_read = time.time() - start_read
+        end_write = 0
+        
+        if num_writes > 0:
+            start_write = time.time()
+            client.Write(update)
+            end_write = time.time() - start_write
+        
+        end_read = 0
+        reads = TascRequest(tid=txn_id_str, pairs=read_keys)
+
+        if num_reads > 0:
+            start_read = time.time()
+            client.Read(reads)
+            end_read = time.time() - start_read
 
         start_commit = time.time()
         client.CommitTransaction(txn)

@@ -21,7 +21,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   syntax='proto3',
   serialized_options=None,
   create_key=_descriptor._internal_create_key,
-  serialized_pb=b'\n\ntasc.proto\x12\x04tasc\x1a\x1bgoogle/protobuf/empty.proto\"J\n\x0eTransactionTag\x12\x0b\n\x03tid\x18\x01 \x01(\t\x12+\n\x06status\x18\x02 \x01(\x0e\x32\x1b.tasc.TascTransactionStatus\"k\n\x0bTascRequest\x12\x0b\n\x03tid\x18\x01 \x01(\t\x12(\n\x05pairs\x18\x02 \x03(\x0b\x32\x19.tasc.TascRequest.KeyPair\x1a%\n\x07KeyPair\x12\x0b\n\x03key\x18\x01 \x01(\t\x12\r\n\x05value\x18\x02 \x01(\x0c\"#\n\x13TransactionWriteSet\x12\x0c\n\x04keys\x18\x01 \x03(\t*@\n\x15TascTransactionStatus\x12\x0b\n\x07RUNNING\x10\x00\x12\r\n\tCOMMITTED\x10\x01\x12\x0b\n\x07\x41\x42ORTED\x10\x02\x32\xb0\x02\n\x04Tasc\x12\x42\n\x10StartTransaction\x12\x16.google.protobuf.Empty\x1a\x14.tasc.TransactionTag\"\x00\x12.\n\x04Read\x12\x11.tasc.TascRequest\x1a\x11.tasc.TascRequest\"\x00\x12/\n\x05Write\x12\x11.tasc.TascRequest\x1a\x11.tasc.TascRequest\"\x00\x12\x41\n\x11\x43ommitTransaction\x12\x14.tasc.TransactionTag\x1a\x14.tasc.TransactionTag\"\x00\x12@\n\x10\x41\x62ortTransaction\x12\x14.tasc.TransactionTag\x1a\x14.tasc.TransactionTag\"\x00\x62\x06proto3'
+  serialized_pb=b'\n\ntasc.proto\x12\x04tasc\x1a\x1bgoogle/protobuf/empty.proto\"`\n\x0eTransactionTag\x12\x0b\n\x03tid\x18\x01 \x01(\t\x12+\n\x06status\x18\x02 \x01(\x0e\x32\x1b.tasc.TascTransactionStatus\x12\x14\n\x0cTxnManagerIP\x18\x03 \x01(\t\"k\n\x0bTascRequest\x12\x0b\n\x03tid\x18\x01 \x01(\t\x12(\n\x05pairs\x18\x02 \x03(\x0b\x32\x19.tasc.TascRequest.KeyPair\x1a%\n\x07KeyPair\x12\x0b\n\x03key\x18\x01 \x01(\t\x12\r\n\x05value\x18\x02 \x01(\x0c\"#\n\x13TransactionWriteSet\x12\x0c\n\x04keys\x18\x01 \x03(\t\"c\n\x11TransactionResult\x12!\n\x03tag\x18\x01 \x01(\x0b\x32\x14.tasc.TransactionTag\x12+\n\x08writeset\x18\x02 \x01(\x0b\x32\x19.tasc.TransactionWriteSet*@\n\x15TascTransactionStatus\x12\x0b\n\x07RUNNING\x10\x00\x12\r\n\tCOMMITTED\x10\x01\x12\x0b\n\x07\x41\x42ORTED\x10\x02\x32\xb0\x02\n\x04Tasc\x12\x42\n\x10StartTransaction\x12\x16.google.protobuf.Empty\x1a\x14.tasc.TransactionTag\"\x00\x12.\n\x04Read\x12\x11.tasc.TascRequest\x1a\x11.tasc.TascRequest\"\x00\x12/\n\x05Write\x12\x11.tasc.TascRequest\x1a\x11.tasc.TascRequest\"\x00\x12\x41\n\x11\x43ommitTransaction\x12\x14.tasc.TransactionTag\x1a\x14.tasc.TransactionTag\"\x00\x12@\n\x10\x41\x62ortTransaction\x12\x14.tasc.TransactionTag\x1a\x14.tasc.TransactionTag\"\x00\x62\x06proto3'
   ,
   dependencies=[google_dot_protobuf_dot_empty__pb2.DESCRIPTOR,])
 
@@ -50,8 +50,8 @@ _TASCTRANSACTIONSTATUS = _descriptor.EnumDescriptor(
   ],
   containing_type=None,
   serialized_options=None,
-  serialized_start=271,
-  serialized_end=335,
+  serialized_start=394,
+  serialized_end=458,
 )
 _sym_db.RegisterEnumDescriptor(_TASCTRANSACTIONSTATUS)
 
@@ -84,6 +84,13 @@ _TRANSACTIONTAG = _descriptor.Descriptor(
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
+    _descriptor.FieldDescriptor(
+      name='TxnManagerIP', full_name='tasc.TransactionTag.TxnManagerIP', index=2,
+      number=3, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=b"".decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
   ],
   extensions=[
   ],
@@ -97,7 +104,7 @@ _TRANSACTIONTAG = _descriptor.Descriptor(
   oneofs=[
   ],
   serialized_start=49,
-  serialized_end=123,
+  serialized_end=145,
 )
 
 
@@ -135,8 +142,8 @@ _TASCREQUEST_KEYPAIR = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=195,
-  serialized_end=232,
+  serialized_start=217,
+  serialized_end=254,
 )
 
 _TASCREQUEST = _descriptor.Descriptor(
@@ -173,8 +180,8 @@ _TASCREQUEST = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=125,
-  serialized_end=232,
+  serialized_start=147,
+  serialized_end=254,
 )
 
 
@@ -205,16 +212,58 @@ _TRANSACTIONWRITESET = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=234,
-  serialized_end=269,
+  serialized_start=256,
+  serialized_end=291,
+)
+
+
+_TRANSACTIONRESULT = _descriptor.Descriptor(
+  name='TransactionResult',
+  full_name='tasc.TransactionResult',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  create_key=_descriptor._internal_create_key,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='tag', full_name='tasc.TransactionResult.tag', index=0,
+      number=1, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
+    _descriptor.FieldDescriptor(
+      name='writeset', full_name='tasc.TransactionResult.writeset', index=1,
+      number=2, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=293,
+  serialized_end=392,
 )
 
 _TRANSACTIONTAG.fields_by_name['status'].enum_type = _TASCTRANSACTIONSTATUS
 _TASCREQUEST_KEYPAIR.containing_type = _TASCREQUEST
 _TASCREQUEST.fields_by_name['pairs'].message_type = _TASCREQUEST_KEYPAIR
+_TRANSACTIONRESULT.fields_by_name['tag'].message_type = _TRANSACTIONTAG
+_TRANSACTIONRESULT.fields_by_name['writeset'].message_type = _TRANSACTIONWRITESET
 DESCRIPTOR.message_types_by_name['TransactionTag'] = _TRANSACTIONTAG
 DESCRIPTOR.message_types_by_name['TascRequest'] = _TASCREQUEST
 DESCRIPTOR.message_types_by_name['TransactionWriteSet'] = _TRANSACTIONWRITESET
+DESCRIPTOR.message_types_by_name['TransactionResult'] = _TRANSACTIONRESULT
 DESCRIPTOR.enum_types_by_name['TascTransactionStatus'] = _TASCTRANSACTIONSTATUS
 _sym_db.RegisterFileDescriptor(DESCRIPTOR)
 
@@ -247,6 +296,13 @@ TransactionWriteSet = _reflection.GeneratedProtocolMessageType('TransactionWrite
   })
 _sym_db.RegisterMessage(TransactionWriteSet)
 
+TransactionResult = _reflection.GeneratedProtocolMessageType('TransactionResult', (_message.Message,), {
+  'DESCRIPTOR' : _TRANSACTIONRESULT,
+  '__module__' : 'tasc_pb2'
+  # @@protoc_insertion_point(class_scope:tasc.TransactionResult)
+  })
+_sym_db.RegisterMessage(TransactionResult)
+
 
 
 _TASC = _descriptor.ServiceDescriptor(
@@ -256,8 +312,8 @@ _TASC = _descriptor.ServiceDescriptor(
   index=0,
   serialized_options=None,
   create_key=_descriptor._internal_create_key,
-  serialized_start=338,
-  serialized_end=642,
+  serialized_start=461,
+  serialized_end=765,
   methods=[
   _descriptor.MethodDescriptor(
     name='StartTransaction',
