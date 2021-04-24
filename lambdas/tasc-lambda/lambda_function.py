@@ -103,7 +103,7 @@ def lambda_handler(event, context):
     end_read = ",".join(map(str,read_txn_times))
     end_commit = ",".join(map(str,commit_txn_times))
 
-    sckt = ctx.socket(zmq.REQ)
+    sckt = ctx.socket(zmq.REP)
     sckt.connect('tcp://%s:6600' % benchmark_server)
     message = str(throughput_end) + ";" + str(latency) + ";" + str(end_ip_resolt) + ";" + str(end_start_txn) + ";" + str(end_write) + ";" + str(end_read) + ";" + str(end_commit)
     sckt.send_string(message)
