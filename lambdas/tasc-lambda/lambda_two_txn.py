@@ -102,16 +102,16 @@ def lambda_handler(event, context):
             latencies.append(latency)
 
     throughput_end = (1000 * (time.time() - throughput_start))/num_txns
-    latency = ",".join(latencies)
-    end_ip_resolt = ",".join(ip_resolution_times)
-    end_start_txn = ",".join(start_txn_times)
-    end_write = ",".join(write_txn_times)
-    end_read = ",".join(read_txn_times)
-    end_commit = ",".join(commit_txn_times)
+    latency = ",".join(map(str, latencies))
+    end_ip_resolt = ",".join(map(str, ip_resolution_times))
+    end_start_txn = ",".join(map(str, start_txn_times))
+    end_write = ",".join(map(str, write_txn_times))
+    end_read = ",".join(map(str,read_txn_times))
+    end_commit = ",".join(map(str,commit_txn_times))
 
     sckt = ctx.socket(zmq.REQ)
     sckt.connect('tcp://%s:6600' % benchmark_server)
-    message = str(throughput_end) + ";" + str(end_ip_resolt) + ";" + str(latency) + ";" + str(end_start_txn) + ";" + str(end_write) + ";" + str(end_read) + ";" + str(end_commit)
+    message = str(throughput_end) + ";" + str(latency) + ";" + str(end_ip_resolt) + ";" + + str(end_start_txn) + ";" + str(end_write) + ";" + str(end_read) + ";" + str(end_commit)
     sckt.send_string(message)
 
     return "Success"
