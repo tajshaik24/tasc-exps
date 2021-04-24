@@ -68,7 +68,7 @@ def lambda_handler(event, context):
             for i in range(num_reads):
                 read_keys.append(TascRequest.KeyPair(key=key_str[i]))
 
-            write = TascRequest(tid=txn_id_str, pairs=keys)
+            write = TascRequest(tid=txn_id_str, pairs=write_keys)
 
             end_write = 0
             
