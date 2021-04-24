@@ -39,7 +39,7 @@ def lambda_handler(event, context):
     commit_txn_times = []
 
     throughput_start = time.time()
-    for i in num_txns:
+    for i in range(num_txns):
         print('*** Starting Transaction '+ str(i) +' ! ***')
         ctx = zmq.Context(1)
         sckt = ctx.socket(zmq.REQ)
@@ -47,14 +47,14 @@ def lambda_handler(event, context):
         ip_resolt_start = time.time()
         sckt.send_string('')
         address = sckt.recv_string()
-        ip_resolution_times.append(time.time() - ip_resolt_start)
+        ip_resolution_times.append((time.time() - ip_resolt_start) * 1000)
 
         with grpc.insecure_channel(address + ':9000') as channel:
             client = TascStub(channel)
 
             start_time = time.time()
             txn = client.StartTransaction(empty_pb2.Empty())
-            end_start_txn = time.time() - start_time
+            end_start_txn = (time.time() - start_time) * 1000
             start_txn_times.append(end_start_txn)
             txn_id_str = txn.tid
 
@@ -72,7 +72,7 @@ def lambda_handler(event, context):
             write = TascRequest(tid=txn_id_str, pairs=keys)
             start_write = time.time()
             client.Write(write)
-            end_write = time.time() - start_write
+            end_write = (time.time() - start_write) * 1000
             write_txn_times.append(end_write)
 
             start_commit = time.time()
@@ -95,13 +95,13 @@ def lambda_handler(event, context):
                     read_value = rv_keys[0].value
                     if(read_value == value_str):
                         break
-            end_read = time.time() - start_read
+            end_read = (time.time() - start_read) * 1000
             read_txn_times.append(end_read)
             
-            latency = (time.time() - start_time)
+            latency = (time.time() - start_time) * 1000
             latencies.append(latency)
 
-    throughput_end = (time.time() - throughput_start)/num_txns
+    throughput_end = (1000 * (time.time() - throughput_start))/num_txns
     latency = ",".join(latencies)
     end_ip_resolt = ",".join(ip_resolution_times)
     end_start_txn = ",".join(start_txn_times)

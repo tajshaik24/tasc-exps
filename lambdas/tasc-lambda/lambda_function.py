@@ -24,7 +24,7 @@ bounded_zipf = stats.rv_discrete(name='bounded_zipf', values=(x, weights))
 
 sys_random = random.SystemRandom()
 
-def lambda_handler(event):
+def lambda_handler(event, context):
     num_txns = int(event["num_txns"])
     num_reads = int(event["num_reads"])
     num_writes = int(event["num_writes"])
@@ -39,7 +39,7 @@ def lambda_handler(event):
     commit_txn_times = []
 
     throughput_start = time.time()
-    for i in num_txns:
+    for i in range(num_txns):
         print('*** Starting Transaction '+ str(i) +' ! ***')
         ctx = zmq.Context(1)
         sckt = ctx.socket(zmq.REQ)
@@ -47,13 +47,13 @@ def lambda_handler(event):
         ip_resolt_start = time.time()
         sckt.send_string('')
         address = sckt.recv_string()
-        ip_resolution_times.append(time.time() - ip_resolt_start)
+        ip_resolution_times.append((time.time() - ip_resolt_start) * 1000)
 
         with grpc.insecure_channel(address + ':9000') as channel:
             client = TascStub(channel)
             start_time = time.time()
             txn = client.StartTransaction(empty_pb2.Empty())
-            end_start_txn = time.time() - start_time
+            end_start_txn = (time.time() - start_time) * 1000
             start_txn_times.append(end_start_txn)
             txn_id_str = txn.tid
 
@@ -75,7 +75,7 @@ def lambda_handler(event):
             if num_writes > 0:
                 start_write = time.time()
                 client.Write(write)
-                end_write = time.time() - start_write
+                end_write = (time.time() - start_write) * 1000
             write_txn_times.append(end_write)
             
             end_read = 0
@@ -84,18 +84,18 @@ def lambda_handler(event):
             if num_reads > 0:
                 start_read = time.time()
                 client.Read(read)
-                end_read = time.time() - start_read
+                end_read = (time.time() - start_read) * 1000
             read_txn_times.append(end_read)
 
             start_commit = time.time()
             client.CommitTransaction(txn)
-            end_commit =  time.time() - start_commit
+            end_commit =  (time.time() - start_commit) * 1000
             commit_txn_times.append(end_commit)
             
-            latency = (time.time() - start_time)
+            latency = (time.time() - start_time) * 1000
             latencies.append(latency)
     
-    throughput_end = (time.time() - throughput_start)/num_txns
+    throughput_end = (1000 * (time.time() - throughput_start))/num_txns
     latency = ",".join(latencies)
     end_ip_resolt = ",".join(ip_resolution_times)
     end_start_txn = ",".join(start_txn_times)
