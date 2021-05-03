@@ -71,8 +71,8 @@ def lambda_handler(event, context):
                 write_keys.append(key)
 
                 request = KeyRequest(tid=txn.id)
-                pair = update.pairs.add()
-                pair.key = keys
+                pair = request.pairs.add()
+                pair.key = key
                 pair.value = os.urandom(4096)
 
                 start_write = time.time()
@@ -91,7 +91,7 @@ def lambda_handler(event, context):
                 read_keys.append(key)
 
                 request = KeyRequest(tid=txn.id)
-                pair = update.pairs.add()
+                pair = request.pairs.add()
                 pair.key = key
 
                 start_read = time.time()
