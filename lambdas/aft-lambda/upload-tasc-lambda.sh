@@ -1,4 +1,4 @@
-NAME=tasc-lambda
+NAME=aft-lambda
 CREATE_LAMBDA=1
 HANDLER=lambda_function.lambda_handler
 while getopts cn:h: flag
@@ -9,7 +9,7 @@ do
         h) HANDLER=${OPTARG};;
     esac
 done
-zip -r $NAME.zip .
+zip -r $NAME.zip . -x aft_test/\*
 aws s3 cp $NAME.zip s3://tasc-lambdas
 if [ $CREATE_LAMBDA == 0 ]
     then aws lambda create-function --function-name $NAME --runtime python3.7 --role arn:aws:iam::861473675836:role/TASCLambda --handler ${HANDLER} --timeout 120 --memory-size 2048 --code S3Bucket=tasc-lambdas,S3Key=${NAME}.zip

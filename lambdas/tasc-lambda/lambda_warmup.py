@@ -1,22 +1,20 @@
+import json
 import os
+import random
 import time
 
 import boto3
+import grpc
 from google.protobuf import empty_pb2
 import numpy as np
 import scipy.stats as stats
 import zmq
-import random
-import json
-import grpc
+
 from tasc_pb2 import *
 from tasc_pb2_grpc import *
 
 lmbd = boto3.client('lambda')
 
-N = 1000
-x = np.arange(1, N)
-SEED = 123456789
 
 sys_random = random.SystemRandom()
 
@@ -28,10 +26,13 @@ def lambda_handler(event, context):
     benchmark_server = event["benchmark_ip"]
     lb_addr = event["elb"]
     zipf = float(event["zipf"])
+    prefix = event["prefix"]
+    N = int(event["N"])
 
+    x = np.arange(1, N)
     weights = x ** (-zipf)
     weights /= weights.sum()
-    bounded_zipf = stats.rv_discrete(name='bounded_zipf', values=(x, weights), seed=SEED)
+    bounded_zipf = stats.rv_discrete(name='bounded_zipf', values=(x, weights))
 
     print('Created workload generator')
 
@@ -45,53 +46,63 @@ def lambda_handler(event, context):
     num_aborts = 0
     num_failed_reads = 0
 
-    throughput_time = 0
-    for i in range(num_txns):
-        print('*** Starting Transaction '+ str(i) +' ! ***')
-        ctx = zmq.Context(1)
-        sckt = ctx.socket(zmq.REQ)
-        sckt.connect('tcp://%s:8000' % lb_addr)
-        ip_resolt_start = time.time()
-        sckt.send_string('')
-        address = sckt.recv_string()
-        ip_resolt_end = time.time()
-        ip_resolution_times.append(ip_resolt_end - ip_resolt_start)
+    ctx = zmq.Context(1)
+    sckt = ctx.socket(zmq.REQ)
+    sckt.connect('tcp://%s:8000' % lb_addr)
+    ip_resolt_start = time.time()
+    sckt.send_string('all')
+    response = sckt.recv_string()
+    ip_resolt_end = time.time()
+    ip_resolution_times.append(ip_resolt_end - ip_resolt_start)
 
+    addresses = response.split(',')
+
+    throughput_time = 0
+    for i in range(N):
+        print('*** Starting Transaction '+ str(i) +' ! ***')
+        address = random.choice(addresses)
         with grpc.insecure_channel(address + ':9000') as channel:
             client = TascStub(channel)
             start_time = time.time()
             txn = client.StartTransaction(empty_pb2.Empty())
             end_start = time.time()
-            start_txn_times.append(end_start - start_time)
+            start_lat = end_start - start_time
+            start_txn_times.append(start_lat)
 
             txn_id_str = txn.tid
-            write_keys = []
-            for _ in range(num_writes):
-                key = str(bounded_zipf.rvs(size=1)[0])
-                write_keys.append(TascRequest.KeyPair(key=key, value=os.urandom(4096)))
-            
-            read_keys = []
-            for i in range(num_reads):
-                key = str(bounded_zipf.rvs(size=1)[0])
-                read_keys.append(TascRequest.KeyPair(key=key))
-
-            write = TascRequest(tid=txn_id_str, pairs=write_keys)
 
             write_time = 0
-            
-            if num_writes > 0:
+            write_keys = []
+            for _ in range(1):
+                key = prefix + str(i)
+                write_keys.append(key)
+                # Add some keys to cowrite with
+                for _ in range(2):
+                    key = prefix + str(bounded_zipf.rvs(size=1)[0])
+                    write_keys.append(key)
+
+                write = [TascRequest.KeyPair(key=key, value=os.urandom(4096)) for key in write_keys]
+                request = TascRequest(tid=txn_id_str, pairs=write)
+
                 start_write = time.time()
-                client.Write(write)
+                client.Write(request)
                 end_write = time.time()
                 write_time += end_write - start_write
             write_txn_times.append(write_time)
-            
-            read_time = 0
-            read = TascRequest(tid=txn_id_str, pairs=read_keys)
 
-            if num_reads > 0:
+            read_time = 0
+            read_keys = []
+            for _ in range(num_reads):
+                key = prefix + str(bounded_zipf.rvs(size=1)[0])
+                # Do not want read your write or repeatable reads to apply
+                while key not in write_keys and key not in read_keys:
+                    key = prefix + str(bounded_zipf.rvs(size=1)[0])
+                read_keys.append(key)
+                read = [TascRequest.KeyPair(key=key)]
+                request = TascRequest(tid=txn_id_str, pairs=read)
+
                 start_read = time.time()
-                client.Read(read)
+                client.Read(request)
                 end_read = time.time()
                 read_time += end_read - start_read
             read_txn_times.append(read_time)
@@ -99,16 +110,17 @@ def lambda_handler(event, context):
             start_commit = time.time()
             commit_resp = client.CommitTransaction(txn)
             end_commit =  time.time()
+            commit_lat = end_commit - start_commit
 
             if commit_resp.status != COMMITTED:
                 num_aborts += 1
             else:
-                commit_txn_times.append(end_commit - start_commit)
-                latency = (time.time() - start_time)
+                commit_txn_times.append(commit_lat)
+                latency = start_lat + write_time + read_time + commit_lat
                 latencies.append(latency)
                 throughput_time += latency
-    
-    throughput = num_txns / throughput_time
+
+    throughput = (num_txns - num_aborts) / throughput_time
 
     # Turn latencies to milliseconds
     convert = lambda x: x * 1000
@@ -132,4 +144,3 @@ def lambda_handler(event, context):
     sckt.send_string(message)
 
     return "Success"
-
