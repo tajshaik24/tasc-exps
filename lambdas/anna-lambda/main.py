@@ -64,6 +64,7 @@ def lambda_handler(event, offset, throughputList, reads, writes, lookups):
 
         # Perform routing lookups
         for _ in range(num_lookups):
+            print('Lookup')
             key = prefix + str(bounded_zipf.rvs(size=1)[0])
             port = 6450
             start = time.time()
@@ -173,17 +174,18 @@ def main():
         'prefix': args.prefix,
         'N': args.knum
         }
-    throughput = []
+    throughputs = []
     reads = []
     writes = []
     lookups = []
 
     threads = []
     for i in range(num_clients):
-        t = threading.Thread(target=lambda_handler, args=(payload,i,tput,reads,writes,lookups,))
+        t = threading.Thread(target=lambda_handler, args=(payload,i,throughputs,reads,writes,lookups,))
 
     for t in threads:
         t.start()
+        print('Started...')
 
     for t in threads:
         t.join()
