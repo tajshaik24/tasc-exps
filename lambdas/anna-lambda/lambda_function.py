@@ -22,6 +22,9 @@ from anna.anna_pb2 import (
     KeyResponse
 )
 
+import requests
+import socket
+
 def lambda_handler(event, context):
 	print('Lambda started')
 	num_txns = int(event["num_txns"])
@@ -45,7 +48,14 @@ def lambda_handler(event, context):
 	lookup_times = []
 	throughput_time = 0
 
-	dumb_client = AnnaTcpClient(elb, None)
+
+	ip = requests.get('http://checkip.amazonaws.com').text.rstrip()
+	sip = socket.gethostname()
+
+	print('AWS IP Got {}'.format(ip))
+	print('Socket IP Got {}'.format(sip))
+
+	dumb_client = AnnaTcpClient(elb, ip)
 
 	for i in range(num_txns):
 		print('*** Starting Transaction '+ str(i) +' ! ***')
