@@ -5,7 +5,7 @@ import time
 import zmq
 
 from anna.client import AnnaTcpClient
-from anna.lattices import LwwPairLattice as LWW
+from anna.lattices import LWWPairLattice as LWW
 
 from anna.zmq_util import (
     recv_response,
