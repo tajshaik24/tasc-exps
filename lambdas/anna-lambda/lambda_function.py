@@ -4,6 +4,7 @@ import time
 
 import zmq
 import numpy as np
+import scipy.stats as stats
 
 from anna.client import AnnaTcpClient
 from anna.lattices import LWWPairLattice as LWW
