@@ -127,16 +127,16 @@ def lambda_handler(event, offset, throughputList, reads, writes, lookups):
 
 def main():
 	parser = argparse.ArgumentParser(description='Makes a call to the TASC benchmark server.')
-    parser.add_argument('-c', '--clients', nargs=1, type=int, metavar='Y',
+	parser.add_argument('-c', '--clients', nargs=1, type=int, metavar='Y',
                         help='The number of clients to invoke.',
                         dest='clients', required=True)
-    parser.add_argument('-l', '--lambda', nargs=1, type=str, metavar='Y',
+	parser.add_argument('-l', '--lambda', nargs=1, type=str, metavar='Y',
                         help='The name of AWS Lambda Function to be run.', 
                         dest='awslambda', required=True)
-    parser.add_argument('-a', '--address', nargs=1, type=str, metavar='A',
+	parser.add_argument('-a', '--address', nargs=1, type=str, metavar='A',
                         help='ELB Address for the Load Balancer Values.', 
                         dest='address', required=True)
-    parser.add_argument('-t', '--txn', nargs=1, type=int, metavar='Y',
+	parser.add_argument('-t', '--txn', nargs=1, type=int, metavar='Y',
                         help='The number of txns to be done.',
                         dest='txn', required=True)
     parser.add_argument('-r', '--reads', nargs=1, type=int, metavar='Y',
