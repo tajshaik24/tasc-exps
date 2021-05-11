@@ -89,7 +89,7 @@ def lambda_handler(event, offset, throughputList, reads, writes, lookups):
 
             rids = [req.request_id]
             tup = tup[0]
-            tup.payload, tup.lattice_type = dumb_client._serialize(value)
+            tup.payload, tup.lattice_type = dumb_client._serialize(lww)
 
             start = time.time()
             send_request(req, send_sock)
