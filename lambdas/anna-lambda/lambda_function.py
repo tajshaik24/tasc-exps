@@ -52,6 +52,7 @@ def lambda_handler(event, context):
 
 		# Perform routing lookups
 		for _ in range(num_lookups):
+			key = prefix + str(bounded_zipf.rvs(size=1)[0])
 			port = 6450
 			start = time.time()
 			addresses = dumb_client._query_routing(key, port)
