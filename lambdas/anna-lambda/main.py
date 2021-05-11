@@ -182,6 +182,7 @@ def main():
     threads = []
     for i in range(num_clients):
         t = threading.Thread(target=lambda_handler, args=(payload,i,throughputs,reads,writes,lookups,))
+        threads.append(t)
 
     for t in threads:
         t.start()
