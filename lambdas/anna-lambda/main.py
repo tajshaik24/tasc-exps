@@ -139,30 +139,30 @@ def main():
 	parser.add_argument('-t', '--txn', nargs=1, type=int, metavar='Y',
                         help='The number of txns to be done.',
                         dest='txn', required=True)
-    parser.add_argument('-r', '--reads', nargs=1, type=int, metavar='Y',
+	parser.add_argument('-r', '--reads', nargs=1, type=int, metavar='Y',
                         help='The number of reads to be done.',
                         dest='reads', required=True)
-    parser.add_argument('-w', '--writes', nargs=1, type=int, metavar='Y',
+	parser.add_argument('-w', '--writes', nargs=1, type=int, metavar='Y',
                         help='The number of writes to be done.',
                         dest='writes', required=True)
-    parser.add_argument('-rl', '--lookups', nargs=1, type=int, metavar='Y',
+	parser.add_argument('-rl', '--lookups', nargs=1, type=int, metavar='Y',
                         help='The number of routing lookups to be done.',
                         dest='lookups', required=True)
-    parser.add_argument('-z', '--zipf', nargs='?', type=float, metavar='Y',
+	parser.add_argument('-z', '--zipf', nargs='?', type=float, metavar='Y',
                         help='Zipfian coefficient',
                         dest='zipf', required=False, default=1.0)
-    parser.add_argument('-p', '--pre', nargs='?', type=str, metavar='Y',
+	parser.add_argument('-p', '--pre', nargs='?', type=str, metavar='Y',
                         help='Prefix key',
                         dest='prefix', required=False, default='tasc')
-    parser.add_argument('-n', '--numkeys', nargs='?', type=int, metavar='Y',
+	parser.add_argument('-n', '--numkeys', nargs='?', type=int, metavar='Y',
                         help='Keyspace to choose from',
                         dest='knum', required=False, default=1000)
-    parser.add_argument('-ip', '--myip', nargs=1, type=str, metavar='A',
+	parser.add_argument('-ip', '--myip', nargs=1, type=str, metavar='A',
                         help='This servers public IP', 
                         dest='ip', required=True)
-    args = parser.parse_args()
+	args = parser.parse_args()
 
-    function = args.awslambda[0]
+	function = args.awslambda[0]
     num_clients = args.clients[0]
 
     payload = {
