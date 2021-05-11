@@ -33,6 +33,7 @@ def lambda_handler(event, offset, throughputList, reads, writes, lookups):
     num_reads = int(event["num_reads"])
     num_writes = int(event["num_writes"])
     num_lookups = int(event["num_lookups"])
+    benchmark_server = event["benchmark_ip"]
     elb = event["elb"]
     zipf = float(event["zipf"])
     prefix = event["prefix"]
@@ -160,13 +161,13 @@ def main():
                         dest='ip', required=True)
     args = parser.parse_args()
 
-    function = args.awslambda[0]
     num_clients = args.clients[0]
     payload = {
         'num_txns': args.txn[0],
         'num_reads': args.reads[0],
         'num_writes': args.writes[0],
         'num_lookups': args.lookups[0],
+        'benchmark_ip': args.ip[0],
         'elb': args.address[0],
         'zipf': args.zipf,
         'prefix': args.prefix,
