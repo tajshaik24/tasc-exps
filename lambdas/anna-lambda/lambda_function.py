@@ -22,35 +22,34 @@ from anna.anna_pb2 import (
 
 def lambda_handler(event, context):
 	print('Lambda started')
-    num_txns = int(event["num_txns"])
-    num_reads = int(event["num_reads"])
-    num_writes = int(event["num_writes"])
-    num_lookups = int(event["num_lookups"])
-    benchmark_server = event["benchmark_ip"]
-    elb = event["elb"]
-    zipf = float(event["zipf"])
-    prefix = event["prefix"]
-    N = int(event["N"])
+	num_txns = int(event["num_txns"])
+	num_reads = int(event["num_reads"])
+	num_writes = int(event["num_writes"])
+	num_lookups = int(event["num_lookups"])
+	benchmark_server = event["benchmark_ip"]
+	elb = event["elb"]
+	zipf = float(event["zipf"])
+	prefix = event["prefix"]
+	N = int(event["N"])
 
-    x = np.arange(1, N)
-    weights = x ** (-zipf)
-    weights /= weights.sum()
-    bounded_zipf = stats.rv_discrete(name='bounded_zipf', values=(x, weights))
+	x = np.arange(1, N)
 
-    print('Created workload generator')
+	weights = x ** (-zipf)
+	weights /= weights.sum()
+	bounded_zipf = stats.rv_discrete(name='bounded_zipf', values=(x, weights))
 
-    read_times = []
-    write_times = []
-    lookup_times = []
-    throughput_time = 0
+	read_times = []
+	write_times = []
+	lookup_times = []
+	throughput_time = 0
 
-    dumb_client = AnnaTcpClient(elb, None)
+	dumb_client = AnnaTcpClient(elb, None)
 
-    for i in range(num_txns):
-    	print('*** Starting Transaction '+ str(i) +' ! ***')
+	for i in range(num_txns):
+		print('*** Starting Transaction '+ str(i) +' ! ***')
 
-    	# Perform routing lookups
-    	for _ in range(num_lookups):
+		# Perform routing lookups
+		for _ in range(num_lookups):
     		port = 6450
     		start = time.time()
     		addresses = dumb_client._query_routing(key, port)
