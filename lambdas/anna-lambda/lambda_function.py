@@ -3,6 +3,7 @@ import random
 import time
 
 import zmq
+import numpy as np
 
 from anna.client import AnnaTcpClient
 from anna.lattices import LWWPairLattice as LWW
