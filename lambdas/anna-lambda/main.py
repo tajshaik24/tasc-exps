@@ -192,29 +192,31 @@ def main():
         t.join()
 
     throughput = sum(throughputs)
-
-    lookups = np.array(lookups)
-    l_med = np.percentile(lookups, 50)
-    l_99 = np.percentile(lookups, 99)
-
-    reads = np.array(reads)
-    r_med = np.percentile(reads, 50)
-    r_99 = np.percentile(reads, 99)
-
-    writes = np.array(writes)
-    w_med = np.percentile(writes, 50)
-    w_99 = np.percentile(writes, 99)
-
     print('Throughput: {} ops/sec\n'.format(throughput))
 
-    print('Routing Lookups')
-    print('Median/99th: {}, {}\n'.format(l_med, l_99))
+    if len(lookups) > 0:
+        lookups = np.array(lookups)
+        l_med = np.percentile(lookups, 50)
+        l_99 = np.percentile(lookups, 99)
+        
+        print('Routing Lookups')
+        print('Median/99th: {}, {}\n'.format(l_med, l_99))
 
-    print('Reads')
-    print('Median/99th: {}, {}\n'.format(r_med, r_99))
+    if len(reads) > 0:
+        reads = np.array(reads)
+        r_med = np.percentile(reads, 50)
+        r_99 = np.percentile(reads, 99)
 
-    print('Writes')
-    print('Median/99th: {}, {}\n'.format(w_med, w_99))
+        print('Reads')
+        print('Median/99th: {}, {}\n'.format(r_med, r_99))
+
+    if len(writes) > 0:
+        writes = np.array(writes)
+        w_med = np.percentile(writes, 50)
+        w_99 = np.percentile(writes, 99)
+
+        print('Writes')
+        print('Median/99th: {}, {}\n'.format(w_med, w_99))
 
 
 
