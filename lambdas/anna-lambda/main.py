@@ -163,8 +163,8 @@ def main():
 	args = parser.parse_args()
 
 	function = args.awslambda[0]
-    num_clients = args.clients[0]
-
+	num_clients = args.clients[0]
+	
     payload = {
     	'num_txns': args.txn[0],
     	'num_reads': args.reads[0],
