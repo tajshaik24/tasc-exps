@@ -57,7 +57,7 @@ def lambda_handler(event, offset, throughputList, reads, writes, lookups):
     print('AWS IP Got {}'.format(ip))
     print('Socket IP Got {}'.format(sip))
 
-    dumb_client = AnnaTcpClient(elb, ip)
+    dumb_client = AnnaTcpClient(elb, ip, offset=i)
 
     for i in range(num_txns):
         print('*** Starting Transaction '+ str(i) +' ! ***')
