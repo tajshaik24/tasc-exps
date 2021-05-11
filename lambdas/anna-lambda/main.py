@@ -24,7 +24,7 @@ from anna.anna_pb2 import (
 
 import requests
 import socket
-import thread
+import threading
 import argparse
 
 def lambda_handler(event, offset, throughputList, reads, writes, lookups):
@@ -181,7 +181,7 @@ def main():
 
     threads = []
     for i in range(num_clients):
-        t = Thread(target=lambda_handler, args=(payload,i,tput,reads,writes,lookups,))
+        t = threading.Thread(target=lambda_handler, args=(payload,i,tput,reads,writes,lookups,))
 
     for t in threads:
         t.start()
